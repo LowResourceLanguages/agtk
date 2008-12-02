@@ -1,0 +1,14 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag
+LDFLAGS=-L../../ag/.libs -lag
+
+all: BAS.so demo
+
+BAS.so: BAS.o BASfile.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+demo: demo.o
+
+clean:
+	-rm *.o *.so demo

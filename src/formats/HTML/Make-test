@@ -1,0 +1,12 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag
+LDFLAGS=-L../../ag/.libs -lag
+
+all: agfio_plugin_HTML.so
+
+agfio_plugin_HTML.so: HTML.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+clean:
+	-rm *.o *.so

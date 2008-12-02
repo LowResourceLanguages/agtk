@@ -1,0 +1,383 @@
+LHD: Partitur 1.2.5
+REP: Muenchen
+SNB: 2
+SAM: 16000
+SBF: 01
+SSB: 16
+NCH: 1
+SPN: TIS
+LBD:
+TRL: 0	ja ,
+TRL: 1	guten
+TRL: 2	Tag .
+TRL: 3	dann
+TRL: 4	fange
+TRL: 5	ich
+TRL: 6	einfach
+TRL: 7	mal
+TRL: 8	an
+TRL: 9	und
+TRL: 10	wollte
+TRL: 11	Sie
+TRL: 12	mal
+TRL: 13	fragen ,
+TRL: 14	wie
+TRL: 15	das
+TRL: 16	aussieht/-
+TRL: 17	<"ahm>
+TRL: 18	wir
+TRL: 19	m"u"sten
+TRL: 20	also
+TRL: 21	insgesamt
+TRL: 22	drei<Z>
+TRL: 23	Arbeitssitzungen
+TRL: 24	festlegen .
+TRL: 25	zwei
+TRL: 26	davon
+TRL: 27	m"u"sten
+TRL: 28	wir
+TRL: 29	zweit"agig
+TRL: 30	machen .
+TRL: 31	<"ahm>
+TRL: 32	wann
+TRL: 33	h"atten
+TRL: 34	Sie
+TRL: 35	denn
+TRL: 36	daf"ur
+TRL: 37	mal
+TRL: 38	Zeit ? 
+KAN: 0	j'a:
+KAN: 1	g'u:t@n
+KAN: 2	t'a:k
+KAN: 3	dan+
+KAN: 4	f'aN@
+KAN: 5	QIC+
+KAN: 6	Q'aIn#f"ax
+KAN: 7	ma:l+
+KAN: 8	Qan+
+KAN: 9	QUnt+
+KAN: 10	vOlt@+
+KAN: 11	zi:+
+KAN: 12	ma:l+
+KAN: 13	fr'a:g@n
+KAN: 14	vi:+
+KAN: 15	das+
+KAN: 16	Q'aUs#z"i:t
+KAN: 17	QE:m
+KAN: 18	vi:6+
+KAN: 19	mYst@n+
+KAN: 20	Qalzo:+
+KAN: 21	Q'Ins#g@z"amt
+KAN: 22	dr'aI
+KAN: 23	Q'a6baIts#z"ItsUN@n
+KAN: 24	f'Est#l"e:g@n
+KAN: 25	tsv'aI
+KAN: 26	daf'On
+KAN: 27	mYst@n+
+KAN: 28	vi:6+
+KAN: 29	tsv'aI#t"E:gIC
+KAN: 30	m'ax@n
+KAN: 31	QE:m
+KAN: 32	van+
+KAN: 33	hEt@n+
+KAN: 34	zi:+
+KAN: 35	dEn+
+KAN: 36	daf'y:6
+KAN: 37	ma:l+
+KAN: 38	ts'aIt
+PRB: 	13907 	-1	TON: L+H*; FUN: PA
+PRB: 	15759 	-1	BRE: B2; TON: L-
+PRB: 	18899 	-1	TON: !H*; FUN: NA
+PRB: 	20525 	-1	BRE: B3; TON: L-L%
+PRB: 	25619 	-1	TON: H*; FUN: NA
+PRB: 	37164 	-1	TON: L*+H; FUN: PA
+PRB: 	39279 	-1	BRE: B2; TON: H-
+PRB: 	43874 	-1	TON: H*; FUN: NA
+PRB: 	51932 	-1	TON: L*; FUN: PA
+PRB: 	54384 	-1	BRE: B2; TON: H-
+PRB: 	61596 	-1	TON: L*; FUN: PA
+PRB: 	67863 	-1	BRE: B2; TON: H-
+PRB: 	79237 	-1	BRE: B9; TON: L-
+PRB: 	84439 	-1	TON: H*; FUN: NA
+PRB: 	101640 	-1	TON: L*+H; FUN: NA
+PRB: 	107833 	-1	BRE: B9; TON: H-
+PRB: 	110897 	-1	TON: H*; FUN: PA
+PRB: 	132006 	-1	BRE: B3; TON: L-H%
+PRB: 	137369 	-1	TON: L*+H; FUN: PA
+PRB: 	152281 	-1	TON: L*+H; FUN: PA
+PRB: 	163404 	-1	BRE: B3; TON: H-L%
+PRB: 	177736 	-1	BRE: B9; TON: H-
+PRB: 	180928 	-1	TON: H*; FUN: NA
+PRB: 	198208 	-1	TON: H+!H*; FUN: PA
+PRB: 	203519 	-1	BRE: B3; TON: L-L%; FUN: ?
+WOR: 	0 	12719 	-1	<A> 
+WOR: 	12720 	3039 	-1	ja 
+WOR: 	15760 	2419 	-1	guten 
+WOR: 	18180 	2345 	-1	Tag 
+WOR: 	20526 	3274 	-1	dann 
+WOR: 	23801 	3407 	-1	fange 
+WOR: 	27209 	1031 	-1	ich 
+WOR: 	28241 	4638 	-1	einfach 
+WOR: 	32880 	3157 	-1	mal 
+WOR: 	36038 	3241 	-1	an 
+WOR: 	39280 	2488 	-1	und 
+WOR: 	41769 	3254 	-1	wollte
+WOR: 	45024 	1688 	-1	Sie 
+WOR: 	46713 	2121 	-1	mal 
+WOR: 	48835 	5549 	-1	fragen 
+WOR: 	54385 	2116 	-1	wie 
+WOR: 	56502 	2937 	-1	das 
+WOR: 	59440 	8423 	-1	aussieht/- 
+WOR: 	67864 	11373 	-1	<"ahm>
+WOR: 	79238 	3672 	-1	wir 
+WOR: 	82911 	4997 	-1	m"u"sten 
+WOR: 	87909 	3599 	-1	also 
+WOR: 	91509 	7242 	-1	insgesamt 
+WOR: 	98752 	9081 	-1	drei<Z> 
+WOR: 	107834 	11978 	-1	Arbeitssitzungen 
+WOR: 	119813 	12193 	-1	festlegen 
+WOR: 	132007 	6587 	-1	zwei 
+WOR: 	138595 	4145 	-1	davon 
+WOR: 	142741 	4858 	-1	m"u"sten 
+WOR: 	147600 	1425 	-1	wir 
+WOR: 	149026 	10093 	-1	zweit"agig 
+WOR: 	159120 	4284 	-1	machen 
+WOR: 	163405 	7216 	-1	<A> 
+WOR: 	170622 	7114 	-1	<"ahm> 
+WOR: 	177737 	4667 	-1	wann 
+WOR: 	182405 	3466 	-1	h"atten 
+WOR: 	185872 	1296 	-1	Sie 
+WOR: 	187169 	2616 	-1	denn 
+WOR: 	189786 	3263 	-1	daf"ur 
+WOR: 	193050 	2366 	-1	mal 
+WOR: 	195417 	8102 	-1	Zeit
+MAU: 0 6239 -1 <p:>
+MAU: 6240 5919 -1 <p:>
+MAU: 12160 1599 0 j
+MAU: 13760 1759 0 a:
+MAU: 15520 479 1 g
+MAU: 16000 639 1 u:
+MAU: 16640 1119 1 n
+MAU: 17760 959 2 t
+MAU: 18720 1279 2 a:
+MAU: 20000 639 2 k
+MAU: 20640 1119 3 d
+MAU: 21760 479 3 a
+MAU: 22240 1279 3 n
+MAU: 23520 1759 4 f
+MAU: 25280 799 4 a
+MAU: 26080 959 4 N
+MAU: 27040 639 5 I
+MAU: 27680 479 5 C
+MAU: 28160 1759 6 aI
+MAU: 29920 799 6 n
+MAU: 30720 1119 6 f
+MAU: 31840 959 6 a
+MAU: 32800 1439 7 m
+MAU: 34240 1919 7 a:
+MAU: 36160 1119 8 a
+MAU: 37280 1919 8 n
+MAU: 39200 1439 9 U
+MAU: 40640 959 9 n
+MAU: 41600 1759 10 v
+MAU: 43360 639 10 O
+MAU: 44000 799 10 l
+MAU: 44800 639 10 t
+MAU: 45440 639 11 z
+MAU: 46080 639 11 i:
+MAU: 46720 1119 12 m
+MAU: 47840 639 12 a:
+MAU: 48480 1439 13 f
+MAU: 49920 959 13 r
+MAU: 50880 1599 13 a:
+MAU: 52480 1919 13 N
+MAU: 54400 959 14 v
+MAU: 55360 799 14 i:
+MAU: 56160 639 15 d
+MAU: 56800 959 15 a
+MAU: 57760 1599 15 s
+MAU: 59360 959 16 Q
+MAU: 60320 1919 16 aU
+MAU: 62240 639 16 s
+MAU: 62880 1119 16 z
+MAU: 64000 1599 16 i:
+MAU: 65600 1919 16 t
+MAU: 67520 4479 17 E:
+MAU: 72000 4959 17 m
+MAU: 76960 4319 -1 <p:>
+MAU: 81280 479 18 v
+MAU: 81760 639 18 i:
+MAU: 82400 479 18 6
+MAU: 82880 1119 19 m
+MAU: 84000 959 19 Y
+MAU: 84960 1759 19 s
+MAU: 86720 1119 19 n
+MAU: 87840 1279 20 a
+MAU: 89120 479 20 l
+MAU: 89600 1439 20 z
+MAU: 91040 799 21 I
+MAU: 91840 959 21 n
+MAU: 92800 639 21 s
+MAU: 93440 1119 21 g
+MAU: 94560 479 21 @
+MAU: 95040 799 21 z
+MAU: 95840 1119 21 a
+MAU: 96960 799 21 m
+MAU: 97760 639 21 t
+MAU: 98400 639 22 d
+MAU: 99040 1439 22 r
+MAU: 100480 5919 22 aI
+MAU: 106400 3039 23 Q
+MAU: 109440 1119 23 a
+MAU: 110560 479 23 6
+MAU: 111040 479 23 b
+MAU: 111520 1439 23 aI
+MAU: 112960 639 23 t
+MAU: 113600 799 23 z
+MAU: 114400 799 23 I
+MAU: 115200 799 23 t
+MAU: 116000 799 23 s
+MAU: 116800 959 23 U
+MAU: 117760 1599 23 N
+MAU: 119360 1919 24 f
+MAU: 121280 959 24 E
+MAU: 122240 1439 24 s
+MAU: 123680 799 24 t
+MAU: 124480 1119 24 l
+MAU: 125600 1599 24 e:
+MAU: 127200 4159 24 N
+MAU: 131360 2879 -1 <p:>
+MAU: 134240 479 25 t
+MAU: 134720 479 25 s
+MAU: 135200 1439 25 v
+MAU: 136640 1759 25 aI
+MAU: 138400 479 26 d
+MAU: 138880 639 26 a
+MAU: 139520 1759 26 f
+MAU: 141280 479 26 O
+MAU: 141760 1119 26 n
+MAU: 142880 959 27 m
+MAU: 143840 479 27 Y
+MAU: 144320 1759 27 s
+MAU: 146080 1279 27 n
+MAU: 147360 639 28 v
+MAU: 148000 639 28 6
+MAU: 148640 959 29 t
+MAU: 149600 639 29 s
+MAU: 150240 1279 29 v
+MAU: 151520 1759 29 aI
+MAU: 153280 1279 29 t
+MAU: 154560 1279 29 e:
+MAU: 155840 479 29 g
+MAU: 156320 799 29 I
+MAU: 157120 1439 29 C
+MAU: 158560 1119 30 m
+MAU: 159680 479 30 a
+MAU: 160160 1599 30 x
+MAU: 161760 479 30 @
+MAU: 162240 959 30 n
+MAU: 163200 6879 -1 <p:>
+MAU: 170080 959 31 Q
+MAU: 171040 3039 31 E:
+MAU: 174080 3199 31 m
+MAU: 177280 3359 32 v
+MAU: 180640 799 32 a
+MAU: 181440 959 32 n
+MAU: 182400 1119 33 h
+MAU: 183520 639 33 E
+MAU: 184160 479 33 t
+MAU: 184640 1119 33 n
+MAU: 185760 639 34 z
+MAU: 186400 799 34 i:
+MAU: 187200 479 35 d
+MAU: 187680 959 35 E
+MAU: 188640 959 35 n
+MAU: 189600 479 36 d
+MAU: 190080 959 36 a
+MAU: 191040 1599 36 f
+MAU: 192640 1439 37 m
+MAU: 194080 639 37 a:
+MAU: 194720 479 37 l
+MAU: 195200 479 38 t
+MAU: 195680 1599 38 s
+MAU: 197280 2719 38 aI
+MAU: 200000 1759 38 t
+MAU: 201760 1599 -1 <p:>
+TR2: 0 ja , 
+TR2: 1 guten 
+TR2: 2 Tag . 
+TR2: 3 dann 
+TR2: 4 fange 
+TR2: 5 ich 
+TR2: 6 einfach 
+TR2: 7 mal 
+TR2: 8 an 
+TR2: 9 und 
+TR2: 10 wollte 
+TR2: 11 Sie 
+TR2: 12 mal 
+TR2: 13 fragen , 
+TR2: 14 -/wie 
+TR2: 15 das 
+TR2: 16 aussieht/- 
+TR2: 17 <"ahm> 
+TR2: 18 wir 
+TR2: 19 m"u"sten 
+TR2: 20 also 
+TR2: 21 insgesamt 
+TR2: 22 #drei<Z> 
+TR2: 23 Arbeitssitzungen 
+TR2: 24 festlegen . 
+TR2: 25 #zwei 
+TR2: 26 davon 
+TR2: 27 m"u"sten 
+TR2: 28 wir 
+TR2: 29 zweit"agig 
+TR2: 30 machen . 
+TR2: 31 <"ahm> 
+TR2: 32 wann 
+TR2: 33 h"atten 
+TR2: 34 Sie 
+TR2: 35 denn 
+TR2: 36 daf"ur 
+TR2: 37 mal 
+TR2: 38 Zeit ? 
+ORT: 0	ja
+ORT: 1	guten
+ORT: 2	Tag
+ORT: 3	dann
+ORT: 4	fange
+ORT: 5	ich
+ORT: 6	einfach
+ORT: 7	mal
+ORT: 8	an
+ORT: 9	und
+ORT: 10	wollte
+ORT: 11	Sie
+ORT: 12	mal
+ORT: 13	fragen
+ORT: 14	wie
+ORT: 15	das
+ORT: 16	aussieht
+ORT: 17	<"ahm>
+ORT: 18	wir
+ORT: 19	m"u"sten
+ORT: 20	also
+ORT: 21	insgesamt
+ORT: 22	drei
+ORT: 23	Arbeitssitzungen
+ORT: 24	festlegen
+ORT: 25	zwei
+ORT: 26	davon
+ORT: 27	m"u"sten
+ORT: 28	wir
+ORT: 29	zweit"agig
+ORT: 30	machen
+ORT: 31	<"ahm>
+ORT: 32	wann
+ORT: 33	h"atten
+ORT: 34	Sie
+ORT: 35	denn
+ORT: 36	daf"ur
+ORT: 37	mal
+ORT: 38	Zeit

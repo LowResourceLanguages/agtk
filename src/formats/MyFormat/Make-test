@@ -1,0 +1,4 @@
+all:
+	g++ -shared -o agfio_plugin_MyFormat.so MyFormat.cc -I../../ag -L../../ag/.libs -lag
+	g++ -o test test.cc -I../../ag -L../../ag/.libs -lag
+

@@ -1,0 +1,1061 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+<AGSet id="Timit" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/DC/documents/rec-dces-19990702.htm">
+<Metadata>
+</Metadata>
+<Timeline id="Timit:Timeline1">
+<Signal id="Timit:Timeline1:Signal1" mimeClass="audio" mimeType="wav" encoding="wav" unit="16kHz" xlink:type="simple" xlink:href="LDC93S1:sa1.wav"></Signal>
+</Timeline>
+<Timeline id="Timit:Timeline2">
+<Signal id="Timit:Timeline2:Signal1" mimeClass="audio" mimeType="wav" encoding="wav" unit="16kHz" xlink:type="simple" xlink:href="LDC93S1:sa2.wav"></Signal>
+</Timeline>
+<Timeline id="Timit:Timeline3">
+<Signal id="Timit:Timeline3:Signal1" mimeClass="audio" mimeType="wav" encoding="wav" unit="16kHz" xlink:type="simple" xlink:href="LDC93S1:si1027"></Signal>
+</Timeline>
+<Timeline id="Timit:Timeline4">
+<Signal id="Timit:Timeline4:Signal1" mimeClass="audio" mimeType="wav" encoding="wav" unit="16kHz" xlink:type="simple" xlink:href="LDC93S1:si1657"></Signal>
+</Timeline>
+<Timeline id="Timit:Timeline5">
+<Signal id="Timit:Timeline5:Signal1" mimeClass="audio" mimeType="wav" encoding="wav" unit="16kHz" xlink:type="simple" xlink:href="LDC93S1:si648"></Signal>
+</Timeline>
+<AG id="Timit:AG1" timeline="Timit:Timeline1">
+<Anchor id="Timit:AG1:Anchor2" offset="3050" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor39" offset="46797" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor1" offset="0" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor3" offset="4559" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor4" offset="5723" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor5" offset="6642" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor6" offset="8772" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor7" offset="9190" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor8" offset="10337" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor9" offset="11517" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor10" offset="12500" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor11" offset="12640" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor12" offset="14714" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor13" offset="15870" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor14" offset="16334" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor15" offset="18088" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor16" offset="20417" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor17" offset="21199" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor18" offset="22560" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor19" offset="22920" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor20" offset="23271" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor21" offset="24229" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor22" offset="25566" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor23" offset="27156" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor24" offset="28064" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor25" offset="29660" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor26" offset="31719" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor27" offset="33360" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor28" offset="33754" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor29" offset="34715" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor30" offset="36080" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor31" offset="36326" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor32" offset="37556" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor33" offset="39561" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor34" offset="40313" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor35" offset="42059" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor36" offset="43479" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor37" offset="44586" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Anchor id="Timit:AG1:Anchor38" offset="46720" unit="16kHz" signals="Timit:Timeline1:Signal1"></Anchor>
+<Annotation id="Timit:AG1:Annotation49" type="txt" start="Timit:AG1:Anchor1" end="Timit:AG1:Anchor39">
+<Feature name="label">She had your dark suit in greasy wash water all year.</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation1" type="phn" start="Timit:AG1:Anchor39" end="Timit:AG1:Anchor2">
+<Feature name="label">h#</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation38" type="wrd" start="Timit:AG1:Anchor39" end="Timit:AG1:Anchor4">
+<Feature name="label">she</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation2" type="phn" start="Timit:AG1:Anchor2" end="Timit:AG1:Anchor3">
+<Feature name="label">sh</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation3" type="phn" start="Timit:AG1:Anchor3" end="Timit:AG1:Anchor4">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation4" type="phn" start="Timit:AG1:Anchor4" end="Timit:AG1:Anchor5">
+<Feature name="label">hv</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation39" type="wrd" start="Timit:AG1:Anchor4" end="Timit:AG1:Anchor8">
+<Feature name="label">had</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation5" type="phn" start="Timit:AG1:Anchor5" end="Timit:AG1:Anchor6">
+<Feature name="label">eh</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation6" type="phn" start="Timit:AG1:Anchor6" end="Timit:AG1:Anchor7">
+<Feature name="label">dcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation7" type="phn" start="Timit:AG1:Anchor7" end="Timit:AG1:Anchor8">
+<Feature name="label">jh</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation40" type="wrd" start="Timit:AG1:Anchor8" end="Timit:AG1:Anchor9">
+<Feature name="label">your</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation8" type="phn" start="Timit:AG1:Anchor8" end="Timit:AG1:Anchor9">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation9" type="phn" start="Timit:AG1:Anchor9" end="Timit:AG1:Anchor10">
+<Feature name="label">dcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation41" type="wrd" start="Timit:AG1:Anchor9" end="Timit:AG1:Anchor14">
+<Feature name="label">dark</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation10" type="phn" start="Timit:AG1:Anchor10" end="Timit:AG1:Anchor11">
+<Feature name="label">d</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation11" type="phn" start="Timit:AG1:Anchor11" end="Timit:AG1:Anchor12">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation12" type="phn" start="Timit:AG1:Anchor12" end="Timit:AG1:Anchor13">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation13" type="phn" start="Timit:AG1:Anchor13" end="Timit:AG1:Anchor14">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation14" type="phn" start="Timit:AG1:Anchor14" end="Timit:AG1:Anchor15">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation42" type="wrd" start="Timit:AG1:Anchor14" end="Timit:AG1:Anchor17">
+<Feature name="label">suit</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation15" type="phn" start="Timit:AG1:Anchor15" end="Timit:AG1:Anchor16">
+<Feature name="label">ux</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation16" type="phn" start="Timit:AG1:Anchor16" end="Timit:AG1:Anchor17">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation17" type="phn" start="Timit:AG1:Anchor17" end="Timit:AG1:Anchor18">
+<Feature name="label">en</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation43" type="wrd" start="Timit:AG1:Anchor17" end="Timit:AG1:Anchor18">
+<Feature name="label">in</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation18" type="phn" start="Timit:AG1:Anchor18" end="Timit:AG1:Anchor19">
+<Feature name="label">gcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation44" type="wrd" start="Timit:AG1:Anchor18" end="Timit:AG1:Anchor24">
+<Feature name="label">greasy</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation19" type="phn" start="Timit:AG1:Anchor19" end="Timit:AG1:Anchor20">
+<Feature name="label">g</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation20" type="phn" start="Timit:AG1:Anchor20" end="Timit:AG1:Anchor21">
+<Feature name="label">r</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation21" type="phn" start="Timit:AG1:Anchor21" end="Timit:AG1:Anchor22">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation22" type="phn" start="Timit:AG1:Anchor22" end="Timit:AG1:Anchor23">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation23" type="phn" start="Timit:AG1:Anchor23" end="Timit:AG1:Anchor24">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation24" type="phn" start="Timit:AG1:Anchor24" end="Timit:AG1:Anchor25">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation45" type="wrd" start="Timit:AG1:Anchor24" end="Timit:AG1:Anchor27">
+<Feature name="label">wash</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation25" type="phn" start="Timit:AG1:Anchor25" end="Timit:AG1:Anchor26">
+<Feature name="label">ao</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation26" type="phn" start="Timit:AG1:Anchor26" end="Timit:AG1:Anchor27">
+<Feature name="label">sh</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation27" type="phn" start="Timit:AG1:Anchor27" end="Timit:AG1:Anchor28">
+<Feature name="label">epi</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation46" type="wrd" start="Timit:AG1:Anchor27" end="Timit:AG1:Anchor32">
+<Feature name="label">water</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation28" type="phn" start="Timit:AG1:Anchor28" end="Timit:AG1:Anchor29">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation29" type="phn" start="Timit:AG1:Anchor29" end="Timit:AG1:Anchor30">
+<Feature name="label">ao</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation30" type="phn" start="Timit:AG1:Anchor30" end="Timit:AG1:Anchor31">
+<Feature name="label">dx</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation31" type="phn" start="Timit:AG1:Anchor31" end="Timit:AG1:Anchor32">
+<Feature name="label">axr</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation32" type="phn" start="Timit:AG1:Anchor32" end="Timit:AG1:Anchor33">
+<Feature name="label">ao</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation47" type="wrd" start="Timit:AG1:Anchor32" end="Timit:AG1:Anchor34">
+<Feature name="label">all</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation33" type="phn" start="Timit:AG1:Anchor33" end="Timit:AG1:Anchor34">
+<Feature name="label">l</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation34" type="phn" start="Timit:AG1:Anchor34" end="Timit:AG1:Anchor35">
+<Feature name="label">y</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation48" type="wrd" start="Timit:AG1:Anchor34" end="Timit:AG1:Anchor37">
+<Feature name="label">year</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation35" type="phn" start="Timit:AG1:Anchor35" end="Timit:AG1:Anchor36">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation36" type="phn" start="Timit:AG1:Anchor36" end="Timit:AG1:Anchor37">
+<Feature name="label">axr</Feature>
+</Annotation>
+<Annotation id="Timit:AG1:Annotation37" type="phn" start="Timit:AG1:Anchor37" end="Timit:AG1:Anchor38">
+<Feature name="label">h#</Feature>
+</Annotation>
+</AG>
+<AG id="Timit:AG2" timeline="Timit:Timeline2">
+<Anchor id="Timit:AG2:Anchor3" offset="2730" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor4" offset="4120" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor1" offset="0" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor2" offset="2260" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor5" offset="4600" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor6" offset="6864" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor7" offset="7920" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor8" offset="8270" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor9" offset="8640" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor10" offset="8856" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor11" offset="9520" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor12" offset="9960" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor13" offset="10736" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor14" offset="11500" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor15" offset="12540" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor16" offset="13535" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor17" offset="14579" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor18" offset="15800" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor19" offset="16474" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor20" offset="19216" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor21" offset="20177" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor22" offset="21138" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor23" offset="22266" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor24" offset="24898" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor25" offset="25410" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor26" offset="25840" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor27" offset="27320" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor28" offset="29000" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor29" offset="29490" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor30" offset="32279" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor31" offset="33127" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor32" offset="34400" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Anchor id="Timit:AG2:Anchor33" offset="34509" unit="16kHz" signals="Timit:Timeline2:Signal1"></Anchor>
+<Annotation id="Timit:AG2:Annotation42" type="txt" start="Timit:AG2:Anchor1" end="Timit:AG2:Anchor33">
+<Feature name="label">Don't ask me to carry an oily rag like that.</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation1" type="phn" start="Timit:AG2:Anchor33" end="Timit:AG2:Anchor2">
+<Feature name="label">h#</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation32" type="wrd" start="Timit:AG2:Anchor33" end="Timit:AG2:Anchor5">
+<Feature name="label">don't</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation2" type="phn" start="Timit:AG2:Anchor2" end="Timit:AG2:Anchor3">
+<Feature name="label">d</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation3" type="phn" start="Timit:AG2:Anchor3" end="Timit:AG2:Anchor4">
+<Feature name="label">uh</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation4" type="phn" start="Timit:AG2:Anchor4" end="Timit:AG2:Anchor5">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation5" type="phn" start="Timit:AG2:Anchor5" end="Timit:AG2:Anchor6">
+<Feature name="label">ae</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation33" type="wrd" start="Timit:AG2:Anchor5" end="Timit:AG2:Anchor9">
+<Feature name="label">ask</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation6" type="phn" start="Timit:AG2:Anchor6" end="Timit:AG2:Anchor7">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation7" type="phn" start="Timit:AG2:Anchor7" end="Timit:AG2:Anchor8">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation8" type="phn" start="Timit:AG2:Anchor8" end="Timit:AG2:Anchor9">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation9" type="phn" start="Timit:AG2:Anchor9" end="Timit:AG2:Anchor10">
+<Feature name="label">m</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation34" type="wrd" start="Timit:AG2:Anchor9" end="Timit:AG2:Anchor11">
+<Feature name="label">me</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation10" type="phn" start="Timit:AG2:Anchor10" end="Timit:AG2:Anchor11">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation11" type="phn" start="Timit:AG2:Anchor11" end="Timit:AG2:Anchor12">
+<Feature name="label">dx</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation35" type="wrd" start="Timit:AG2:Anchor11" end="Timit:AG2:Anchor13">
+<Feature name="label">to</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation12" type="phn" start="Timit:AG2:Anchor12" end="Timit:AG2:Anchor13">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation13" type="phn" start="Timit:AG2:Anchor13" end="Timit:AG2:Anchor14">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation36" type="wrd" start="Timit:AG2:Anchor13" end="Timit:AG2:Anchor18">
+<Feature name="label">carry</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation14" type="phn" start="Timit:AG2:Anchor14" end="Timit:AG2:Anchor15">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation15" type="phn" start="Timit:AG2:Anchor15" end="Timit:AG2:Anchor16">
+<Feature name="label">eh</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation16" type="phn" start="Timit:AG2:Anchor16" end="Timit:AG2:Anchor17">
+<Feature name="label">r</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation17" type="phn" start="Timit:AG2:Anchor17" end="Timit:AG2:Anchor18">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation18" type="phn" start="Timit:AG2:Anchor18" end="Timit:AG2:Anchor19">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation37" type="wrd" start="Timit:AG2:Anchor18" end="Timit:AG2:Anchor19">
+<Feature name="label">an</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation19" type="phn" start="Timit:AG2:Anchor19" end="Timit:AG2:Anchor20">
+<Feature name="label">oy</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation38" type="wrd" start="Timit:AG2:Anchor19" end="Timit:AG2:Anchor22">
+<Feature name="label">oily</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation20" type="phn" start="Timit:AG2:Anchor20" end="Timit:AG2:Anchor21">
+<Feature name="label">l</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation21" type="phn" start="Timit:AG2:Anchor21" end="Timit:AG2:Anchor22">
+<Feature name="label">ax</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation22" type="phn" start="Timit:AG2:Anchor22" end="Timit:AG2:Anchor23">
+<Feature name="label">r</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation39" type="wrd" start="Timit:AG2:Anchor22" end="Timit:AG2:Anchor26">
+<Feature name="label">rag</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation23" type="phn" start="Timit:AG2:Anchor23" end="Timit:AG2:Anchor24">
+<Feature name="label">ae</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation24" type="phn" start="Timit:AG2:Anchor24" end="Timit:AG2:Anchor25">
+<Feature name="label">gcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation25" type="phn" start="Timit:AG2:Anchor25" end="Timit:AG2:Anchor26">
+<Feature name="label">g</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation26" type="phn" start="Timit:AG2:Anchor26" end="Timit:AG2:Anchor27">
+<Feature name="label">oy</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation40" type="wrd" start="Timit:AG2:Anchor26" end="Timit:AG2:Anchor28">
+<Feature name="label">like</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation27" type="phn" start="Timit:AG2:Anchor27" end="Timit:AG2:Anchor28">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation28" type="phn" start="Timit:AG2:Anchor28" end="Timit:AG2:Anchor29">
+<Feature name="label">dh</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation41" type="wrd" start="Timit:AG2:Anchor28" end="Timit:AG2:Anchor31">
+<Feature name="label">that</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation29" type="phn" start="Timit:AG2:Anchor29" end="Timit:AG2:Anchor30">
+<Feature name="label">ae</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation30" type="phn" start="Timit:AG2:Anchor30" end="Timit:AG2:Anchor31">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG2:Annotation31" type="phn" start="Timit:AG2:Anchor31" end="Timit:AG2:Anchor32">
+<Feature name="label">h#</Feature>
+</Annotation>
+</AG>
+<AG id="Timit:AG3" timeline="Timit:Timeline3">
+<Anchor id="Timit:AG3:Anchor6" offset="6266" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor47" offset="49460" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor1" offset="0" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor2" offset="1513" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor3" offset="2994" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor4" offset="4440" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor5" offset="5080" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor7" offset="7436" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor8" offset="10360" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor9" offset="12338" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor10" offset="14920" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor11" offset="15720" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor12" offset="16041" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor13" offset="17520" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor14" offset="18300" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor15" offset="18940" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor16" offset="19810" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor17" offset="20845" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor18" offset="21820" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor19" offset="22500" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor20" offset="23000" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor21" offset="24000" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor22" offset="24522" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor23" offset="25691" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor24" offset="25942" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor25" offset="26600" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor26" offset="27613" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor27" offset="28120" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor28" offset="30190" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor29" offset="32501" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor30" offset="33253" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor31" offset="33965" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor32" offset="34478" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor33" offset="34882" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor34" offset="35870" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor35" offset="36920" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor36" offset="37720" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor37" offset="38510" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor38" offset="39160" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor39" offset="39895" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor40" offset="41210" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor41" offset="43040" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor42" offset="43710" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor43" offset="44901" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor44" offset="45183" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor45" offset="46581" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Anchor id="Timit:AG3:Anchor46" offset="49360" unit="16kHz" signals="Timit:Timeline3:Signal1"></Anchor>
+<Annotation id="Timit:AG3:Annotation58" type="txt" start="Timit:AG3:Anchor1" end="Timit:AG3:Anchor47">
+<Feature name="label">Even then, if she took one step forward he could catch her.</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation1" type="phn" start="Timit:AG3:Anchor47" end="Timit:AG3:Anchor2">
+<Feature name="label">h#</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation46" type="wrd" start="Timit:AG3:Anchor47" end="Timit:AG3:Anchor7">
+<Feature name="label">even</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation2" type="phn" start="Timit:AG3:Anchor2" end="Timit:AG3:Anchor3">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation3" type="phn" start="Timit:AG3:Anchor3" end="Timit:AG3:Anchor4">
+<Feature name="label">iy</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation4" type="phn" start="Timit:AG3:Anchor4" end="Timit:AG3:Anchor5">
+<Feature name="label">v</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation5" type="phn" start="Timit:AG3:Anchor5" end="Timit:AG3:Anchor6">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation6" type="phn" start="Timit:AG3:Anchor6" end="Timit:AG3:Anchor7">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation7" type="phn" start="Timit:AG3:Anchor7" end="Timit:AG3:Anchor8">
+<Feature name="label">eh</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation47" type="wrd" start="Timit:AG3:Anchor7" end="Timit:AG3:Anchor9">
+<Feature name="label">then</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation8" type="phn" start="Timit:AG3:Anchor8" end="Timit:AG3:Anchor9">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation9" type="phn" start="Timit:AG3:Anchor9" end="Timit:AG3:Anchor10">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation48" type="wrd" start="Timit:AG3:Anchor9" end="Timit:AG3:Anchor12">
+<Feature name="label">if</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation10" type="phn" start="Timit:AG3:Anchor10" end="Timit:AG3:Anchor11">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation11" type="phn" start="Timit:AG3:Anchor11" end="Timit:AG3:Anchor12">
+<Feature name="label">f</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation12" type="phn" start="Timit:AG3:Anchor12" end="Timit:AG3:Anchor13">
+<Feature name="label">sh</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation49" type="wrd" start="Timit:AG3:Anchor12" end="Timit:AG3:Anchor14">
+<Feature name="label">she</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation13" type="phn" start="Timit:AG3:Anchor13" end="Timit:AG3:Anchor14">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation14" type="phn" start="Timit:AG3:Anchor14" end="Timit:AG3:Anchor15">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation50" type="wrd" start="Timit:AG3:Anchor14" end="Timit:AG3:Anchor19">
+<Feature name="label">took</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation15" type="phn" start="Timit:AG3:Anchor15" end="Timit:AG3:Anchor16">
+<Feature name="label">t</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation16" type="phn" start="Timit:AG3:Anchor16" end="Timit:AG3:Anchor17">
+<Feature name="label">uh</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation17" type="phn" start="Timit:AG3:Anchor17" end="Timit:AG3:Anchor18">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation18" type="phn" start="Timit:AG3:Anchor18" end="Timit:AG3:Anchor19">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation19" type="phn" start="Timit:AG3:Anchor19" end="Timit:AG3:Anchor20">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation51" type="wrd" start="Timit:AG3:Anchor19" end="Timit:AG3:Anchor22">
+<Feature name="label">one</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation20" type="phn" start="Timit:AG3:Anchor20" end="Timit:AG3:Anchor21">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation21" type="phn" start="Timit:AG3:Anchor21" end="Timit:AG3:Anchor22">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation22" type="phn" start="Timit:AG3:Anchor22" end="Timit:AG3:Anchor23">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation52" type="wrd" start="Timit:AG3:Anchor22" end="Timit:AG3:Anchor27">
+<Feature name="label">step</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation23" type="phn" start="Timit:AG3:Anchor23" end="Timit:AG3:Anchor24">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation24" type="phn" start="Timit:AG3:Anchor24" end="Timit:AG3:Anchor25">
+<Feature name="label">t</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation25" type="phn" start="Timit:AG3:Anchor25" end="Timit:AG3:Anchor26">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation26" type="phn" start="Timit:AG3:Anchor26" end="Timit:AG3:Anchor27">
+<Feature name="label">pcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation27" type="phn" start="Timit:AG3:Anchor27" end="Timit:AG3:Anchor28">
+<Feature name="label">f</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation53" type="wrd" start="Timit:AG3:Anchor27" end="Timit:AG3:Anchor33">
+<Feature name="label">forward</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation28" type="phn" start="Timit:AG3:Anchor28" end="Timit:AG3:Anchor29">
+<Feature name="label">ow</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation29" type="phn" start="Timit:AG3:Anchor29" end="Timit:AG3:Anchor30">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation30" type="phn" start="Timit:AG3:Anchor30" end="Timit:AG3:Anchor31">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation31" type="phn" start="Timit:AG3:Anchor31" end="Timit:AG3:Anchor32">
+<Feature name="label">dcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation32" type="phn" start="Timit:AG3:Anchor32" end="Timit:AG3:Anchor33">
+<Feature name="label">d</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation33" type="phn" start="Timit:AG3:Anchor33" end="Timit:AG3:Anchor34">
+<Feature name="label">hh</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation54" type="wrd" start="Timit:AG3:Anchor33" end="Timit:AG3:Anchor35">
+<Feature name="label">he</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation34" type="phn" start="Timit:AG3:Anchor34" end="Timit:AG3:Anchor35">
+<Feature name="label">iy</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation35" type="phn" start="Timit:AG3:Anchor35" end="Timit:AG3:Anchor36">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation55" type="wrd" start="Timit:AG3:Anchor35" end="Timit:AG3:Anchor38">
+<Feature name="label">could</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation36" type="phn" start="Timit:AG3:Anchor36" end="Timit:AG3:Anchor37">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation37" type="phn" start="Timit:AG3:Anchor37" end="Timit:AG3:Anchor38">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation38" type="phn" start="Timit:AG3:Anchor38" end="Timit:AG3:Anchor39">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation56" type="wrd" start="Timit:AG3:Anchor38" end="Timit:AG3:Anchor43">
+<Feature name="label">catch</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation39" type="phn" start="Timit:AG3:Anchor39" end="Timit:AG3:Anchor40">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation40" type="phn" start="Timit:AG3:Anchor40" end="Timit:AG3:Anchor41">
+<Feature name="label">ae</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation41" type="phn" start="Timit:AG3:Anchor41" end="Timit:AG3:Anchor42">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation42" type="phn" start="Timit:AG3:Anchor42" end="Timit:AG3:Anchor43">
+<Feature name="label">ch</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation43" type="phn" start="Timit:AG3:Anchor43" end="Timit:AG3:Anchor44">
+<Feature name="label">epi</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation57" type="wrd" start="Timit:AG3:Anchor43" end="Timit:AG3:Anchor45">
+<Feature name="label">her</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation44" type="phn" start="Timit:AG3:Anchor44" end="Timit:AG3:Anchor45">
+<Feature name="label">axr</Feature>
+</Annotation>
+<Annotation id="Timit:AG3:Annotation45" type="phn" start="Timit:AG3:Anchor45" end="Timit:AG3:Anchor46">
+<Feature name="label">h#</Feature>
+</Annotation>
+</AG>
+<AG id="Timit:AG4" timeline="Timit:Timeline4">
+<Anchor id="Timit:AG4:Anchor4" offset="3212" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor5" offset="3533" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor2" offset="2120" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor3" offset="2725" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor1" offset="0" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor6" offset="4530" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor7" offset="4780" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor8" offset="6057" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor9" offset="7310" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor10" offset="8200" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor11" offset="10280" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor12" offset="12291" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor13" offset="13640" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor14" offset="14203" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor15" offset="15325" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor16" offset="16880" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor17" offset="18435" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor18" offset="19853" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor19" offset="21013" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor20" offset="23018" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor21" offset="24400" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor22" offset="25984" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor23" offset="27350" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor24" offset="27947" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor25" offset="28960" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor26" offset="29520" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor27" offset="29940" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor28" offset="31000" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor29" offset="32119" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor30" offset="33440" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor31" offset="34599" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor32" offset="34779" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor33" offset="34945" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor34" offset="36200" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor35" offset="37610" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor36" offset="37840" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor37" offset="40360" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor38" offset="40864" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor39" offset="43480" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor40" offset="45360" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Anchor id="Timit:AG4:Anchor41" offset="45466" unit="16kHz" signals="Timit:Timeline4:Signal1"></Anchor>
+<Annotation id="Timit:AG4:Annotation51" type="txt" start="Timit:AG4:Anchor1" end="Timit:AG4:Anchor41">
+<Feature name="label">Or borrow some money from someone and go home by bus?</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation1" type="phn" start="Timit:AG4:Anchor41" end="Timit:AG4:Anchor2">
+<Feature name="label">h#</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation40" type="wrd" start="Timit:AG4:Anchor41" end="Timit:AG4:Anchor5">
+<Feature name="label">or</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation2" type="phn" start="Timit:AG4:Anchor2" end="Timit:AG4:Anchor3">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation3" type="phn" start="Timit:AG4:Anchor3" end="Timit:AG4:Anchor4">
+<Feature name="label">ao</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation4" type="phn" start="Timit:AG4:Anchor4" end="Timit:AG4:Anchor5">
+<Feature name="label">r</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation5" type="phn" start="Timit:AG4:Anchor5" end="Timit:AG4:Anchor6">
+<Feature name="label">bcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation41" type="wrd" start="Timit:AG4:Anchor5" end="Timit:AG4:Anchor10">
+<Feature name="label">borrow</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation6" type="phn" start="Timit:AG4:Anchor6" end="Timit:AG4:Anchor7">
+<Feature name="label">b</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation7" type="phn" start="Timit:AG4:Anchor7" end="Timit:AG4:Anchor8">
+<Feature name="label">aa</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation8" type="phn" start="Timit:AG4:Anchor8" end="Timit:AG4:Anchor9">
+<Feature name="label">r</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation9" type="phn" start="Timit:AG4:Anchor9" end="Timit:AG4:Anchor10">
+<Feature name="label">ax</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation10" type="phn" start="Timit:AG4:Anchor10" end="Timit:AG4:Anchor11">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation42" type="wrd" start="Timit:AG4:Anchor10" end="Timit:AG4:Anchor12">
+<Feature name="label">some</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation11" type="phn" start="Timit:AG4:Anchor11" end="Timit:AG4:Anchor12">
+<Feature name="label">em</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation12" type="phn" start="Timit:AG4:Anchor12" end="Timit:AG4:Anchor13">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation43" type="wrd" start="Timit:AG4:Anchor12" end="Timit:AG4:Anchor15">
+<Feature name="label">money</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation13" type="phn" start="Timit:AG4:Anchor13" end="Timit:AG4:Anchor14">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation14" type="phn" start="Timit:AG4:Anchor14" end="Timit:AG4:Anchor15">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation15" type="phn" start="Timit:AG4:Anchor15" end="Timit:AG4:Anchor16">
+<Feature name="label">f</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation44" type="wrd" start="Timit:AG4:Anchor15" end="Timit:AG4:Anchor17">
+<Feature name="label">from</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation16" type="phn" start="Timit:AG4:Anchor16" end="Timit:AG4:Anchor17">
+<Feature name="label">em</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation17" type="phn" start="Timit:AG4:Anchor17" end="Timit:AG4:Anchor18">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation45" type="wrd" start="Timit:AG4:Anchor17" end="Timit:AG4:Anchor22">
+<Feature name="label">someone</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation18" type="phn" start="Timit:AG4:Anchor18" end="Timit:AG4:Anchor19">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation19" type="phn" start="Timit:AG4:Anchor19" end="Timit:AG4:Anchor20">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation20" type="phn" start="Timit:AG4:Anchor20" end="Timit:AG4:Anchor21">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation21" type="phn" start="Timit:AG4:Anchor21" end="Timit:AG4:Anchor22">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation22" type="phn" start="Timit:AG4:Anchor22" end="Timit:AG4:Anchor23">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation46" type="wrd" start="Timit:AG4:Anchor22" end="Timit:AG4:Anchor25">
+<Feature name="label">and</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation23" type="phn" start="Timit:AG4:Anchor23" end="Timit:AG4:Anchor24">
+<Feature name="label">eh</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation24" type="phn" start="Timit:AG4:Anchor24" end="Timit:AG4:Anchor25">
+<Feature name="label">ng</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation25" type="phn" start="Timit:AG4:Anchor25" end="Timit:AG4:Anchor26">
+<Feature name="label">gcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation47" type="wrd" start="Timit:AG4:Anchor25" end="Timit:AG4:Anchor28">
+<Feature name="label">go</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation26" type="phn" start="Timit:AG4:Anchor26" end="Timit:AG4:Anchor27">
+<Feature name="label">g</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation27" type="phn" start="Timit:AG4:Anchor27" end="Timit:AG4:Anchor28">
+<Feature name="label">ow</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation28" type="phn" start="Timit:AG4:Anchor28" end="Timit:AG4:Anchor29">
+<Feature name="label">hv</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation48" type="wrd" start="Timit:AG4:Anchor28" end="Timit:AG4:Anchor31">
+<Feature name="label">home</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation29" type="phn" start="Timit:AG4:Anchor29" end="Timit:AG4:Anchor30">
+<Feature name="label">ow</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation30" type="phn" start="Timit:AG4:Anchor30" end="Timit:AG4:Anchor31">
+<Feature name="label">m</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation31" type="phn" start="Timit:AG4:Anchor31" end="Timit:AG4:Anchor32">
+<Feature name="label">bcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation49" type="wrd" start="Timit:AG4:Anchor31" end="Timit:AG4:Anchor34">
+<Feature name="label">by</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation32" type="phn" start="Timit:AG4:Anchor32" end="Timit:AG4:Anchor33">
+<Feature name="label">b</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation33" type="phn" start="Timit:AG4:Anchor33" end="Timit:AG4:Anchor34">
+<Feature name="label">ay</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation34" type="phn" start="Timit:AG4:Anchor34" end="Timit:AG4:Anchor35">
+<Feature name="label">bcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation50" type="wrd" start="Timit:AG4:Anchor34" end="Timit:AG4:Anchor39">
+<Feature name="label">bus</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation35" type="phn" start="Timit:AG4:Anchor35" end="Timit:AG4:Anchor36">
+<Feature name="label">b</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation36" type="phn" start="Timit:AG4:Anchor36" end="Timit:AG4:Anchor37">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation37" type="phn" start="Timit:AG4:Anchor37" end="Timit:AG4:Anchor38">
+<Feature name="label">epi</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation38" type="phn" start="Timit:AG4:Anchor38" end="Timit:AG4:Anchor39">
+<Feature name="label">th</Feature>
+</Annotation>
+<Annotation id="Timit:AG4:Annotation39" type="phn" start="Timit:AG4:Anchor39" end="Timit:AG4:Anchor40">
+<Feature name="label">h#</Feature>
+</Annotation>
+</AG>
+<AG id="Timit:AG5" timeline="Timit:Timeline5">
+<Anchor id="Timit:AG5:Anchor2" offset="1507" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor3" offset="2154" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor1" offset="0" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor4" offset="3822" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor5" offset="5480" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor6" offset="5681" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor7" offset="6241" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor8" offset="8029" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor9" offset="8357" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor10" offset="9364" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor11" offset="10760" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor12" offset="12040" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor13" offset="13800" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor14" offset="14520" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor15" offset="15331" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor16" offset="16430" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor17" offset="16820" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor18" offset="19342" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor19" offset="19840" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor20" offset="21305" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor21" offset="22475" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor22" offset="23268" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor23" offset="24092" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor24" offset="25290" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor25" offset="26020" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor26" offset="27613" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor27" offset="28841" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor28" offset="29958" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor29" offset="30913" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor30" offset="32000" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor31" offset="32876" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor32" offset="34040" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor33" offset="34600" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor34" offset="35409" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor35" offset="36223" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor36" offset="36929" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor37" offset="37640" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor38" offset="38466" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor39" offset="40000" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor40" offset="40713" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor41" offset="41271" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor42" offset="41610" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor43" offset="42350" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor44" offset="43540" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor45" offset="45460" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor46" offset="46640" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor47" offset="46990" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor48" offset="47480" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor49" offset="48570" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor50" offset="51320" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor51" offset="52961" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor52" offset="54609" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor53" offset="55182" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor54" offset="55862" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor55" offset="57760" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Anchor id="Timit:AG5:Anchor56" offset="57856" unit="16kHz" signals="Timit:Timeline5:Signal1"></Anchor>
+<Annotation id="Timit:AG5:Annotation71" type="txt" start="Timit:AG5:Anchor1" end="Timit:AG5:Anchor56">
+<Feature name="label">A sailboat may have a bone in her teeth one minute and lie becalmed the next.</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation1" type="phn" start="Timit:AG5:Anchor56" end="Timit:AG5:Anchor2">
+<Feature name="label">h#</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation55" type="wrd" start="Timit:AG5:Anchor56" end="Timit:AG5:Anchor3">
+<Feature name="label">a</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation2" type="phn" start="Timit:AG5:Anchor2" end="Timit:AG5:Anchor3">
+<Feature name="label">ax-h</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation3" type="phn" start="Timit:AG5:Anchor3" end="Timit:AG5:Anchor4">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation56" type="wrd" start="Timit:AG5:Anchor3" end="Timit:AG5:Anchor9">
+<Feature name="label">sailboat</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation4" type="phn" start="Timit:AG5:Anchor4" end="Timit:AG5:Anchor5">
+<Feature name="label">ey</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation5" type="phn" start="Timit:AG5:Anchor5" end="Timit:AG5:Anchor6">
+<Feature name="label">l</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation6" type="phn" start="Timit:AG5:Anchor6" end="Timit:AG5:Anchor7">
+<Feature name="label">v</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation7" type="phn" start="Timit:AG5:Anchor7" end="Timit:AG5:Anchor8">
+<Feature name="label">ow</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation8" type="phn" start="Timit:AG5:Anchor8" end="Timit:AG5:Anchor9">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation9" type="phn" start="Timit:AG5:Anchor9" end="Timit:AG5:Anchor10">
+<Feature name="label">m</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation57" type="wrd" start="Timit:AG5:Anchor9" end="Timit:AG5:Anchor11">
+<Feature name="label">may</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation10" type="phn" start="Timit:AG5:Anchor10" end="Timit:AG5:Anchor11">
+<Feature name="label">ey</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation11" type="phn" start="Timit:AG5:Anchor11" end="Timit:AG5:Anchor12">
+<Feature name="label">hv</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation58" type="wrd" start="Timit:AG5:Anchor11" end="Timit:AG5:Anchor14">
+<Feature name="label">have</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation12" type="phn" start="Timit:AG5:Anchor12" end="Timit:AG5:Anchor13">
+<Feature name="label">ae</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation13" type="phn" start="Timit:AG5:Anchor13" end="Timit:AG5:Anchor14">
+<Feature name="label">v</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation14" type="phn" start="Timit:AG5:Anchor14" end="Timit:AG5:Anchor15">
+<Feature name="label">ax</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation59" type="wrd" start="Timit:AG5:Anchor14" end="Timit:AG5:Anchor15">
+<Feature name="label">a</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation15" type="phn" start="Timit:AG5:Anchor15" end="Timit:AG5:Anchor16">
+<Feature name="label">bcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation60" type="wrd" start="Timit:AG5:Anchor15" end="Timit:AG5:Anchor19">
+<Feature name="label">bone</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation16" type="phn" start="Timit:AG5:Anchor16" end="Timit:AG5:Anchor17">
+<Feature name="label">b</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation17" type="phn" start="Timit:AG5:Anchor17" end="Timit:AG5:Anchor18">
+<Feature name="label">ow</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation18" type="phn" start="Timit:AG5:Anchor18" end="Timit:AG5:Anchor19">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation19" type="phn" start="Timit:AG5:Anchor19" end="Timit:AG5:Anchor20">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation61" type="wrd" start="Timit:AG5:Anchor19" end="Timit:AG5:Anchor21">
+<Feature name="label">in</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation20" type="phn" start="Timit:AG5:Anchor20" end="Timit:AG5:Anchor21">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation21" type="phn" start="Timit:AG5:Anchor21" end="Timit:AG5:Anchor22">
+<Feature name="label">hv</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation62" type="wrd" start="Timit:AG5:Anchor21" end="Timit:AG5:Anchor23">
+<Feature name="label">her</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation22" type="phn" start="Timit:AG5:Anchor22" end="Timit:AG5:Anchor23">
+<Feature name="label">axr</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation23" type="phn" start="Timit:AG5:Anchor23" end="Timit:AG5:Anchor24">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation63" type="wrd" start="Timit:AG5:Anchor23" end="Timit:AG5:Anchor27">
+<Feature name="label">teeth</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation24" type="phn" start="Timit:AG5:Anchor24" end="Timit:AG5:Anchor25">
+<Feature name="label">t</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation25" type="phn" start="Timit:AG5:Anchor25" end="Timit:AG5:Anchor26">
+<Feature name="label">iy</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation26" type="phn" start="Timit:AG5:Anchor26" end="Timit:AG5:Anchor27">
+<Feature name="label">dh</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation27" type="phn" start="Timit:AG5:Anchor27" end="Timit:AG5:Anchor28">
+<Feature name="label">w</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation64" type="wrd" start="Timit:AG5:Anchor27" end="Timit:AG5:Anchor30">
+<Feature name="label">one</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation28" type="phn" start="Timit:AG5:Anchor28" end="Timit:AG5:Anchor29">
+<Feature name="label">ah</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation29" type="phn" start="Timit:AG5:Anchor29" end="Timit:AG5:Anchor30">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation30" type="phn" start="Timit:AG5:Anchor30" end="Timit:AG5:Anchor31">
+<Feature name="label">m</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation65" type="wrd" start="Timit:AG5:Anchor30" end="Timit:AG5:Anchor35">
+<Feature name="label">minute</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation31" type="phn" start="Timit:AG5:Anchor31" end="Timit:AG5:Anchor32">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation32" type="phn" start="Timit:AG5:Anchor32" end="Timit:AG5:Anchor33">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation33" type="phn" start="Timit:AG5:Anchor33" end="Timit:AG5:Anchor34">
+<Feature name="label">ih</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation34" type="phn" start="Timit:AG5:Anchor34" end="Timit:AG5:Anchor35">
+<Feature name="label">q</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation35" type="phn" start="Timit:AG5:Anchor35" end="Timit:AG5:Anchor36">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation66" type="wrd" start="Timit:AG5:Anchor35" end="Timit:AG5:Anchor37">
+<Feature name="label">and</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation36" type="phn" start="Timit:AG5:Anchor36" end="Timit:AG5:Anchor37">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation37" type="phn" start="Timit:AG5:Anchor37" end="Timit:AG5:Anchor38">
+<Feature name="label">l</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation67" type="wrd" start="Timit:AG5:Anchor37" end="Timit:AG5:Anchor39">
+<Feature name="label">lie</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation38" type="phn" start="Timit:AG5:Anchor38" end="Timit:AG5:Anchor39">
+<Feature name="label">ay</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation39" type="phn" start="Timit:AG5:Anchor39" end="Timit:AG5:Anchor40">
+<Feature name="label">bcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation68" type="wrd" start="Timit:AG5:Anchor39" end="Timit:AG5:Anchor46">
+<Feature name="label">becalmed</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation40" type="phn" start="Timit:AG5:Anchor40" end="Timit:AG5:Anchor41">
+<Feature name="label">b</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation41" type="phn" start="Timit:AG5:Anchor41" end="Timit:AG5:Anchor42">
+<Feature name="label">ax-h</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation42" type="phn" start="Timit:AG5:Anchor42" end="Timit:AG5:Anchor43">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation43" type="phn" start="Timit:AG5:Anchor43" end="Timit:AG5:Anchor44">
+<Feature name="label">k</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation44" type="phn" start="Timit:AG5:Anchor44" end="Timit:AG5:Anchor45">
+<Feature name="label">aa</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation45" type="phn" start="Timit:AG5:Anchor45" end="Timit:AG5:Anchor46">
+<Feature name="label">m</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation46" type="phn" start="Timit:AG5:Anchor46" end="Timit:AG5:Anchor47">
+<Feature name="label">dh</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation69" type="wrd" start="Timit:AG5:Anchor46" end="Timit:AG5:Anchor48">
+<Feature name="label">the</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation47" type="phn" start="Timit:AG5:Anchor47" end="Timit:AG5:Anchor48">
+<Feature name="label">ix</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation48" type="phn" start="Timit:AG5:Anchor48" end="Timit:AG5:Anchor49">
+<Feature name="label">n</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation70" type="wrd" start="Timit:AG5:Anchor48" end="Timit:AG5:Anchor54">
+<Feature name="label">next</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation49" type="phn" start="Timit:AG5:Anchor49" end="Timit:AG5:Anchor50">
+<Feature name="label">eh</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation50" type="phn" start="Timit:AG5:Anchor50" end="Timit:AG5:Anchor51">
+<Feature name="label">kcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation51" type="phn" start="Timit:AG5:Anchor51" end="Timit:AG5:Anchor52">
+<Feature name="label">s</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation52" type="phn" start="Timit:AG5:Anchor52" end="Timit:AG5:Anchor53">
+<Feature name="label">tcl</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation53" type="phn" start="Timit:AG5:Anchor53" end="Timit:AG5:Anchor54">
+<Feature name="label">t</Feature>
+</Annotation>
+<Annotation id="Timit:AG5:Annotation54" type="phn" start="Timit:AG5:Anchor54" end="Timit:AG5:Anchor55">
+<Feature name="label">h#</Feature>
+</Annotation>
+</AG>
+</AGSet>
+

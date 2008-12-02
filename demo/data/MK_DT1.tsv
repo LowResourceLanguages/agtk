@@ -1,0 +1,603 @@
+0	13	Call	explan	Kwang		-	04/20/1995	2.93	g.r.	explanation				MK_DT1_1
+13	44	Call	cc	Kwang	KF004	fo	04/20/1995		g.r.	"most of time scratching, cc at 13/16"	20	BK 40-30		MK_DT1_2
+44	54	Call	fc	Kwang	KM002	fo	04/20/1995		g.r.		20	BK 40-30		MK_DT1_3
+54	58	Call	wc	Kwang	KM002	gt	04/20/1995		g.r.	"or pre-wc, very short"	20	BK 40-30		MK_DT1_4
+58	65	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 58/1.01	20	BK 40-30		MK_DT1_5
+65	81	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_6
+81	87	Call	explan	Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_7
+87	93	Call	wc	Kwang	KM002	gt	04/20/1995		g.r.	wc at 1.27/1.28/1.30/1.31	20	BK 40		MK_DT1_8
+93	101	Call	an	Kwang	KM002	gt	04/20/1995		g.r.	an at 1.33/1.37/1.40	20	BK 40		MK_DT1_9
+101	102	Call	wc	Kwang	KM002	gt	04/20/1995		g.r.	wc at 1.38/1.39	20	BK 40		MK_DT1_10
+102	110	Call	explan	Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_11
+110	114	Call	wc	Kwang	KM002	gt	04/20/1995		g.r.	short wc at 1.50/1.51	20	BK 40		MK_DT1_12
+114	115	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_13
+115	117	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	"first note high, second lower"				MK_DT1_14
+117	118	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	different from one before				MK_DT1_15
+118	119	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_16
+119	124	Call	explan	Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_17
+124	184	Call	cc	Kwang	KM002	fo	04/20/1995		g.r.	"cc at 2.04/2.22/3.00, far away, bad recording"				MK_DT1_18
+184	188	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.	snl (=single note long) at 3.05/3.07				MK_DT1_19
+188	190	Call	tn	Kwang	KM002	gt	04/20/1995		g.r.	tn				MK_DT1_20
+190	192	Call	"snl,sn"	Kwang	KM002	gt	04/20/1995		g.r.	snl at 3.10/sn at 3.11				MK_DT1_21
+192	207	Call		Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_22
+207	213	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_23
+213	215	Call	tn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_24
+215	227	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.	snl at 3.35/3.40				MK_DT1_25
+227	229	Call	tn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_26
+229	232	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.	sn at 3.49/3.51				MK_DT1_27
+232	235	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_28
+235	240	Call		Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_29
+240	242	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_30
+242	246	Call	cc	Kwang	??	gt	04/20/1995		g.r.					MK_DT1_31
+246	254	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_32
+254	297	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.	sn at 4.14/4.15				MK_DT1_33
+297	359	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_34
+359	364	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.	very noisy BK	20	BK 30		MK_DT1_35
+364	378	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_36
+378	387	Call	tn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_37
+387	438	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 6.27/6.30/6.39/6.55	20	BK 30		MK_DT1_38
+438	454	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_39
+454	468	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.	sn at 7.34/7.40	20	BK 30		MK_DT1_40
+468	474	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_41
+474	479	Call	zn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 30 b.r.		MK_DT1_42
+479	489	Call	sn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 30 b.r.		MK_DT1_43
+489	490	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_44
+490	501	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_45
+501	502	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_46
+502	516	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_47
+516	529	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_48
+529	532	Call	explan	Kwang	KM002	gt	04/20/1995		g.r.					MK_DT1_49
+532	533	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_50
+533	538	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 8.53/8.55	20	BK 30		MK_DT1_51
+538	545	Call	explan	Kwang	KM002	gt	04/20/1995		g.r.	explanation				MK_DT1_52
+545	548	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_53
+548	563	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_54
+563	565	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_55
+565	578	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_56
+578	590	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 30		MK_DT1_57
+590	600	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 9.50/9.56	20	BK 30		MK_DT1_58
+600	601	Call	sn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 30 b.r.		MK_DT1_59
+601	605	Call	cc	Kwang	K????	fo	04/20/1995		n.v.g.r.	very noisy BK	20	BK 30 b.r.		MK_DT1_60
+605	612	Call	explan	Kwang	KM002		04/20/1995		g.r.					MK_DT1_61
+612	630	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_62
+630	634	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_63
+634	648	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_64
+648	650	Call	sn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 40 b.r.		MK_DT1_65
+650	658	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_66
+658	662	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_67
+662	667	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 40		MK_DT1_68
+667	676	Call	explan	Kwang	KM002		04/20/1995		g.r.					MK_DT1_69
+676	696	Call	cc	Kwang	K????	fo	04/20/1995		g.r.		20	BK 50		MK_DT1_70
+696	701	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_71
+701	709	Call	explan	Kwang	KM002		04/20/1995		g.r.	explanation				MK_DT1_72
+709	715	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_73
+715	721	Call	sn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_74
+721	736	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 12.01/12.04/12.09/12.11/12.14	20	BK 50		MK_DT1_75
+736	739	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	almost tn	20	BK 50		MK_DT1_76
+739	758	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.	zn at 12.19/12.31/12.36	20	BK 50		MK_DT1_77
+758	762	Call	sn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 50		MK_DT1_78
+762	766	Call	snl	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_79
+766	788	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_80
+788	793	Call	cc	Kwang	K????	fo	04/20/1995		g.r.	in background far away	20	BK 50		MK_DT1_81
+793	797	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_82
+797	810	Call	cc	Kwang	K????	fo	04/20/1995		g.r.	"in background far away, cc at 13.17/13.18/13.21"	20	BK 50		MK_DT1_83
+810	813	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_84
+813	823	Call	cc	Kwang	K????	fo	04/20/1995		g.r.	in background far away	20	BK 50		MK_DT1_85
+823	826	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_86
+826	836	Call	cc	Kwang	K????	fo	04/20/1995		g.r.	in background far away	20	BK 50		MK_DT1_87
+836	838	Call	zn	Kwang	KM002	gt	04/20/1995		g.r.		20	BK 50		MK_DT1_88
+838	840	Call	sn	Kwang	KM002	gt	04/20/1995		n.v.g.r.	very noisy BK	20	BK 50		MK_DT1_89
+840	845	Call	cc	Kwang	KM002	fo	04/20/1995		n.v.g.r.	very noisy BK	20	BK 50		MK_DT1_90
+845	872	Call	explan						g.r.	explanation				MK_DT1_91
+872	878	Call	explan	Jacksons			04/22/1995	1.01	g.r.	explanation				MK_DT1_92
+878	894	Call	md	Jacksons		su	04/22/1995		g.r.	because of jackal 100m away	20	BK 40		MK_DT1_93
+894	908	Call	cc (gkz)	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_94
+908	914	Call	cc (gkz)	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_95
+914	921	Call	cc	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_96
+921	927	Call	cc	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_97
+927	930	Call	sn (gkz) ??	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_98
+930	931	Call	cc (gkz)	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_99
+931	938	Call	sn (gkz)	Jacksons		su	04/22/1995		g.r.		20	BK 40		MK_DT1_100
+938	964	Call	explan	Jacksons			04/22/1995		g.r.		20	BK 40		MK_DT1_101
+964	1011	Call	sn	Jacksons	JF003	su	04/22/1995	1.11	g.r.	sn at 16.09/16.15/16.23/16.35/16.36/16.40/16.41/16.43/16.46/16.49	20	BK 50		MK_DT1_102
+1011	1021	Call	explan	Jacksons	JF003		04/22/1995		g.r.	explanation				MK_DT1_103
+1021	1034	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 17.07	20	BK 50-40		MK_DT1_104
+1034	1036	Call	zn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 50-40		MK_DT1_105
+1036	1038	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 50-40		MK_DT1_106
+1038	1039	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_106
+1039	1075	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 17.21/17.35/17.43/	20	BK 50-40		MK_DT1_107
+1075	1085	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_108
+1085	1101	Call	explan	Jacksons	JF003	su	04/22/1995		g.r.	explanation	20	BK 50-40		MK_DT1_109
+1101	1113	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 18.25	20	BK 50-40		MK_DT1_110
+1113	1114	Call	zn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 50-40		MK_DT1_111
+1114	1116	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_112
+1116	1119	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 50-40		MK_DT1_113
+1119	1169	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg	cc at 18.40/18.42/18.44/18.46/18.48/18.52/18.54/18.56/19.03/19.05/19.07	20	BK 40		MK_DT1_114
+1169	1190	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 19.33/19.35/19.38/19.39	20	BK 40		MK_DT1_115
+1190	1193	Call	ss	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_116
+1193	1218	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 19.57/20.08/20.11	20	BK 40		MK_DT1_117
+1218	1226	Call	zn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_118
+1226	1228	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_119
+1228	1239	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg	cc at 20.34/20.36	20	BK 40		MK_DT1_120
+1239	1245	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.	sn at 20.42	20	BK 40		MK_DT1_121
+1245	1248	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg	cc at 20.46	20	BK 40		MK_DT1_122
+1248	1250	Call	short wc	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_123
+1250	1253	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_124
+1253	1254	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_125
+1254	1258	Call	zn	Jacksons	JF003	su	04/22/1995		g.r.	zn at 20.57	20	BK 40		MK_DT1_126
+1258	1266	Call	cc	Jacksons	JF003	su	04/22/1995		g.r./bkg	cc at 20.59	20	BK 40		MK_DT1_127
+1266	1287	Call	sn	Jacksons	JF003	su	04/22/1995		g.r.		20	BK 40		MK_DT1_128
+1287	1294	Call	wc	Jacksons	JF004	gt	04/22/1995	4.13	g.r.	wc at 21.32/21.33	20	BK 30		MK_DT1_129
+1294	1320	Call	md	Jacksons	JF004	gt	04/22/1995		g.r.	mod al at 21.34/21.35/21.39/21.40/21.41/21.45/21.47	20	BK 40		MK_DT1_130
+1320	1324	Call	sn (gkz)	Jacksons	JF004	gt	04/22/1995	4.14	g.r.		20	BK 40		MK_DT1_131
+1324	1327	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.	Ruth talking	20	BK 40		MK_DT1_132
+1327	1348	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_133
+1348	1351	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_134
+1351	1359	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_135
+1359	1395	Call		Jacksons	JF004	gt	04/22/1995		g.r.	explanation	20	BK 40		MK_DT1_136
+1395	1397	Call	"wc, md"	Jacksons	JF004	gt	04/22/1995	4.26	g.r.		20	BK 40		MK_DT1_137
+1397	1402	Call	md	Jacksons	JF004	gt	04/22/1995		g.r.	mod al at 23.18	20	BK 40		MK_DT1_138
+1402	1404	Call	short wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_139
+1404	1439	Call	md	Jacksons	JF004	gt	04/22/1995		g.r.	mod al at 23.25	20	BK 40		MK_DT1_140
+1439	1443	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_141
+1443	1446	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.	wc at 24.04	20	BK 40-30		MK_DT1_142
+1446	1473	Call	short wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_143
+1473	1480	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 24.35	20	BK 40-30		MK_DT1_144
+1480	1482	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r.	don't know who	20	BK 40-30		MK_DT1_145
+1482	1497	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	"explanation, alarm because of bird, don't know which species"	20	BK 40-30		MK_DT1_146
+1497	1506	Call	sn	Jacksons	JF003	ga	04/22/1995		g.r.	sn at 25.04	20	BK 40-30		MK_DT1_147
+1506	1507	Call	cc 	Jacksons	JF003	ga	04/22/1995		g.r.	don't know who	20	BK 40-30		MK_DT1_148
+1507	1508	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_149
+1508	1512	Call	sn	Jacksons	JF003	ga	04/22/1995		g.r.	sn at 25.10	20	BK 40-30		MK_DT1_150
+1512	1515	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_151
+1515	1526	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r.	cc at 25.22	20	BK 40-30		MK_DT1_152
+1526	1531	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_153
+1531	1565	Call	"zn, cc"	Jacksons	JF003	ga	04/22/1995		g.r.	together	20	BK 40-30		MK_DT1_154
+1565	1584	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r./bkg	"cc at 26.06/26.09/26.14/26.17, quite clear"	20	BK 40-30		MK_DT1_155
+1584	1585	Call	sn	Jacksons	JF003	ga	04/22/1995		n.v.g.r.		20	BK 40-20 b.		MK_DT1_156
+1585	1623	Call	cc	Jacksons	JF003	ga	04/22/1995		n.v.g.r.		20	BK 40-30 b.		MK_DT1_157
+1623	1670	Call	cc	Jacksons	JF003	ga	04/22/1995		g.r./bkg	"explanation, JF003 GA, longer calls from JF004"	20	BK 40-30		MK_DT1_158
+1670	1705	Call	wc	Jacksons	JF004	gt	04/22/1995	4.8	g.r.	wc at 27.54/27.59/28.01/28.03/28.05/28.07/28.08	20	BK 40-30	W0115901	MK_DT1_159
+1705	1728	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	"explanation, JF004 called because of bird, ran back to her, bird 200m dist"				MK_DT1_160
+1728	1734	Call	sn	Jacksons	JF004	gt	04/22/1995		n.v.g.r.	sn at 28.49/28.53	20	BK 40-30 b.		MK_DT1_161
+1734	1737	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.	talking	20	BK 40-30		MK_DT1_162
+1737	1746	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 28.58/29.00	20	BK 40-30		MK_DT1_163
+1746	1755	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 29.10	20	BK 40-30		MK_DT1_164
+1755	1759	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_165
+1759	1767	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 29.29/29.22/29.23/29.26	20	BK 40-30		MK_DT1_166
+1767	1773	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_167
+1773	1775	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_168
+1775	1783	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.	Ruth talking	20	BK 40-30		MK_DT1_169
+1783	1785	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_170
+1785	1791	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.	Ruth talking	20	BK 40-30		MK_DT1_171
+1791	1799	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_172
+1799	1818	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.	wc at 30.01/30.02/30.04/30.05/30.10/30.14/30.15/30.17	20	BK 40-30		MK_DT1_173
+1818	1829	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.	wc at 30.18/30.21/30.22/30.25/30.26/30.27/30.28	20	BK 40-30		MK_DT1_174
+1829	1835	Call	md	Jacksons	JF004	gt	04/22/1995		g.r.	al at 30.30/30.34	20	BK 40-30		MK_DT1_175
+1835	1836	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_176
+1836	1838	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.	wc at 30.37	20	BK 40-30		MK_DT1_177
+1838	1845	Call	md	Jacksons	JF004	gt	04/22/1995		g.r.	al at 30.39/30.40/30.42/30.43	20	BK 40-30		MK_DT1_178
+1845	1860	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_179
+1860	1884	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	"explanation, JF004 alarm probably because of bird, fe closest to her ran back to her"	20	BK 40-30		MK_DT1_180
+1884	1891	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_181
+1891	1897	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_182
+1897	1904	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 31.42	20	BK 40-30		MK_DT1_183
+1904	1905	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_184
+1905	1908	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 31.47/	20	BK 40-30		MK_DT1_185
+1908	1910	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_186
+1910	1911	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_187
+1911	1918	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_188
+1918	1920	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_189
+1920	1921	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_190
+1921	1922	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_191
+1922	1928	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_192
+1928	1930	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_193
+1930	1937	Call	wc	Jacksons	JF004	gt	04/22/1995	4.84	g.r.	wc at 32.11	20	BK 40-30		MK_DT1_194
+1937	1944	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 32.19/32.22	20	BK 40-30		MK_DT1_195
+1944	1951	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_196
+1951	1952	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_197
+1952	1976	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 32.35	20	BK 40-30		MK_DT1_198
+1976	1984	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 33.04	20	BK 40-30		MK_DT1_199
+1984	1985	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_200
+1985	1995	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 33.11	20	BK 50-40		MK_DT1_201
+1995	1997	Call	ss	Jacksons	JF004	gt	04/22/1995		g.r.	ss=melodišse vocalisation - one note going up	20	BK 50-40		MK_DT1_202
+1997	2011	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 33.18/33.21/33.23	20	BK 50-40		MK_DT1_203
+2011	2014	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_204
+2014	2017	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_205
+2017	2019	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_206
+2019	2023	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_207
+2023	2024	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_208
+2024	2026	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_209
+2026	2044	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 33.54	20	BK 50-40		MK_DT1_210
+2044	2046	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_211
+2046	2053	Call	"sn,sn,sn"	Jacksons	JF004	gt	04/22/1995		g.r.	3 very short sn in row	20	BK 50-40		MK_DT1_212
+2053	2054	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_213
+2054	2059	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_214
+2059	2060	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_215
+2060	2066	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 34.25	20	BK 50-40		MK_DT1_216
+2066	2068	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_217
+2068	2071	Call	zn	Jacksons	JF004	gt	04/22/1995		n.v.g.r.		20	BK 50-40 b.		MK_DT1_218
+2071	2080	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 34.34	20	BK 50-40		MK_DT1_219
+2080	2090	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_220
+2090	2092	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_221
+2092	2095	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_222
+2095	2103	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 34.56/35.00/35.01	20	BK 50-40		MK_DT1_223
+2103	2108	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_224
+2108	2128	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 35.12/35.16/35.20	20	BK 50-40		MK_DT1_225
+2128	2147	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_226
+2147	2164	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_227
+2164	2180	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 36.06/36.11/36.13	20	BK 40		MK_DT1_228
+2180	2181	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_229
+2181	2184	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_230
+2184	2198	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 36.35	20	BK 40		MK_DT1_231
+2198	2204	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_232
+2204	2219	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 36.46	20	BK 40		MK_DT1_233
+2219	2228	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_234
+2228	2237	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_235
+2237	2239	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_236
+2239	2245	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 37.21	20	BK 40		MK_DT1_237
+2245	2249	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_238
+2249	2254	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_239
+2254	2256	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_240
+2256	2265	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 37.40/37.42	20	BK 50-40		MK_DT1_241
+2265	2266	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_242
+2266	2271	Call	ss	Jacksons	JF004	gt	04/22/1995		g.r.	not totally clear ss	20	BK 50-40		MK_DT1_243
+2271	2272	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_244
+2272	2284	Call	zn	Jacksons	JF004	gt	04/22/1995		n.v.g.r.		20	BK 50-40 b.		MK_DT1_245
+2284	2302	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 38.19	20	BK 50-40		MK_DT1_246
+2302	2316	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 38.27/38.29	20	BK 50-40		MK_DT1_247
+2316	2319	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_248
+2319	2325	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_249
+2325	2329	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_250
+2329	2342	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_251
+2342	2347	Call	wc	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_252
+2347	2352	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 39.11	20	BK 50-40		MK_DT1_253
+2352	2362	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	"others looked around shortly, cntinued foraging"	20	BK 50-40		MK_DT1_254
+2362	2367	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_255
+2367	2383	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 39.40	20	BK 40-30		MK_DT1_256
+2383	2387	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_257
+2387	2414	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 40.04	20	BK 40-30		MK_DT1_258
+2414	2420	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_259
+2420	2435	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 40.26 (very noisy bkg)	20	BK 40-30		MK_DT1_260
+2435	2440	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_261
+2440	2445	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_262
+2445	2459	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_263
+2459	2463	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_264
+2463	2465	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_265
+2465	2471	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	almost melidišs --> ss	20	BK 40-30		MK_DT1_266
+2471	2474	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_267
+2474	2476	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_268
+2476	2481	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_269
+2481	2511	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 41.22/41.34	20	BK 40-30		MK_DT1_270
+2511	2530	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 42.05	20	BK 40-30		MK_DT1_271
+2530	2557	Call	ss	Jacksons	JF004	gt	04/22/1995		g.r.	ss at 42.16 (different zu vorher)	20	BK 40-30		MK_DT1_272
+2557	2564	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_273
+2564	2566	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_274
+2566	2568	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_275
+2568	2572	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_276
+2572	2575	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_277
+2575	2581	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_278
+2581	2584	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_279
+2584	2588	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_280
+2588	2599	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_281
+2599	2601	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_282
+2601	2604	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_283
+2604	2608	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_284
+2608	2613	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 43.28/43.31	20	BK 50-40		MK_DT1_285
+2613	2628	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 43.33/43.37	20	BK 50-30		MK_DT1_286
+2628	2636	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 43.53	20	BK 40-30		MK_DT1_287
+2636	2639	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_288
+2639	2644	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_289
+2644	2659	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 44.16	20	BK 50-30		MK_DT1_290
+2659	2661	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_291
+2661	2666	Call	talking	Jacksons	JF004	gt	04/22/1995	4.96	g.r.		20	BK 40-30		MK_DT1_292
+2666	2677	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_293
+2677	2684	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_294
+2684	2692	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.	almost melodišs	20	BK 40		MK_DT1_295
+2692	2694	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20			MK_DT1_296
+2694	2706	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_297
+2706	2710	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.	melodišs	20	BK 40		MK_DT1_298
+2710	2714	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_299
+2714	2729	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	others not to see anymore	20			MK_DT1_300
+2729	2745	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.	"almost triller, high pitched"	20	BK 40-30		MK_DT1_301
+2745	2756	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.	melodišs together	20	BK 40-30		MK_DT1_302
+2756	2774	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 45.56	20	BK 40-30		MK_DT1_303
+2774	2777	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	high pitched	20	BK 40-30		MK_DT1_304
+2777	2782	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_305
+2782	2786	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_306
+2786	2788	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_307
+2788	2790	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_308
+2790	2798	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 46.35	20	BK 50-40		MK_DT1_309
+2798	2818	Call	explan	Jacksons	JF004	gt	04/22/1995	4.98	g.r.	can hear the others but not see	20			MK_DT1_310
+2818	2824	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 46.59	20	BK 40-30		MK_DT1_311
+2824	2843	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_312
+2843	2853	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_313
+2853	2863	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_314
+2863	2867	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50		MK_DT1_315
+2867	2872	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50		MK_DT1_316
+2872	2878	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_317
+2878	2881	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_318
+2881	2885	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_319
+2885	2895	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	triller	20	BK 50-40		MK_DT1_320
+2895	2905	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 48.18	20	BK 50-40		MK_DT1_321
+2905	2921	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_322
+2921	2930	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_320
+2930	2932	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_324
+2932	2952	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_325
+2952	2957	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_326
+2957	2963	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	"others to see, distance 15-20m"	20			MK_DT1_327
+2963	2965	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_328
+2965	2982	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20			MK_DT1_329
+2982	3003	Call	zn (gkr)	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_330
+3003	3009	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_331
+3009	3037	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 50.22	20	BK 50-30		MK_DT1_332
+3037	3050	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_333
+3050	3054	Call	tn (trl)	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_334
+3054	3109	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 51.30	20	BK 50-40		MK_DT1_335
+3109	3130	Call	zn	Jacksons	JF004	gt	04/22/1995	5.03	g.r.		20	BK 40-30		MK_DT1_336
+3130	3134	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_337
+3134	3151	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 52.20	20	BK 40-30		MK_DT1_338
+3151	3157	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 52.34	20	BK 40-30		MK_DT1_339
+3157	3162	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_340
+3162	3186	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 52.47/52.52	20	BK 50-30		MK_DT1_341
+3186	3203	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_342
+3203	3208	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 53.25	20	BK 40-30		MK_DT1_343
+3208	3252	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 53.48/54.03	20	BK 50-30		MK_DT1_344
+3252	3270	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20			MK_DT1_345
+3270	3300	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 54.43/54.47/54.49	20	BK 50-30		MK_DT1_346
+3300	3369	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.	and car noise	20			MK_DT1_347
+3369	3370	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 30		MK_DT1_348
+3370	3373	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 30		MK_DT1_349
+3373	3384	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 56.18	20	BK 40-30		MK_DT1_350
+3384	3385	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_351
+3385	3386	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_352
+3386	3402	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_353
+3402	3405	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_354
+3405	3421	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 56.51	20	BK 40		MK_DT1_355
+3421	3429	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_356
+3429	3467	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_357
+3467	3499	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_358
+3499	3508	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_359
+3508	3513	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_360
+3513	3513	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_361
+3513	3522	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_362
+3522	3528	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_363
+3528	3536	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_364
+3536	3542	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	melodišs	20	BK 40		MK_DT1_365
+3542	3551	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	with talking in background	20	BK 18		MK_DT1_366
+3551	3564	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 59.17	20	BK 40		MK_DT1_367
+3564	3568	Call	tn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_368
+3568	3579	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 59.30	20	BK 40		MK_DT1_369
+3579	3590	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 59.42/59.44/59.48	20	BK 40		MK_DT1_370
+3590	3593	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 59.50	20	BK 40		MK_DT1_371
+3593	3599	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_372
+3599	3600	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_373
+3600	3607	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_374
+3607	3608	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_375
+3608	3615	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_376
+3615	3616	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_377
+3616	3617	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_378
+3617	3617	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_379
+3617	3621	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_380
+3621	3622	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_381
+3622	3625	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.					MK_DT1_382
+3625	3626	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_383
+3626	3630	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.					MK_DT1_384
+3630	3637	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_385
+3637	3640	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_386
+3640	3643	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_387
+3643	3657	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 1.00.48/1.00.51/1.00.54	20	BK 50-40		MK_DT1_388
+3657	3662	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_389
+3662	3673	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_390
+3673	3687	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 1.01.23	20	BK 40		MK_DT1_391
+3687	3700	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 1.01.28/1.01.28/1.01.33/1.01.37	20	BK 50-40		MK_DT1_392
+3700	3728	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.	zn at 1.01.52	20	BK 50-40		MK_DT1_393
+3728	3733	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 1.02.11	20	BK 40		MK_DT1_394
+3733	3736	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40		MK_DT1_395
+3736	3749	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.					MK_DT1_396
+3749	3756	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40		MK_DT1_397
+3756	3763	Call	zn	Jacksons	JF004	gt	04/22/1995	5.14	g.r.		20	BK 40		MK_DT1_398
+3763	3783	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.	sn at 1.02.43/1.02.50	20	BK 40		MK_DT1_399
+3783	3786	Call	zn	Jacksons	JF004	gt	04/22/1995	5.14	g.r.		20	BK 50-40		MK_DT1_400
+3786	3787	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_401
+3787	3788	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_402
+3788	3792	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg	cc at 1.03.10	20	BK 50-40		MK_DT1_403
+3792	3795	Call	zn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 50-40		MK_DT1_404
+3795	3800	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 50-40		MK_DT1_405
+3800	3805	Call	zn 	Jacksons	JF004	gt	04/22/1995		g.r.	melodišs	20	BK 50-40		MK_DT1_406
+3805	3811	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_407
+3811	3816	Call	sn	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_408
+3816	3821	Call	cc	Jacksons	JF004	gt	04/22/1995		g.r./bkg		20	BK 40-30		MK_DT1_409
+3821	3845	Call	talking	Jacksons	JF004	gt	04/22/1995		g.r.		20	BK 40-30		MK_DT1_410
+3845	3845	Call	explan	Jacksons	JF004	gt	04/22/1995		g.r.	JF004 on GT all the time	20	BK 40-30		MK_DT1_411
+3845	3878	Call	blank	South	SM005		04/23/1995	3.86	g.r.		20	BK 40-30		MK_DT1_412
+3878	3892	Call	explan	South	SM005		04/23/1995	3.86	g.r.	"South, 23.4.95"				MK_DT1_413
+3892	3954	Call	cc	South	SM005	fo/dg	04/23/1995		g.r.	cc at 1.04.56/1.05.20/1.05.38/1.05.41	20	BK 40-24		MK_DT1_414
+3954	3971	Call	cc	South	SM005	fo/dg	04/23/1995		g.r./bkg	cc at 1.05.55/1.06.00	20	BK 40-30		MK_DT1_415
+3971	3993	Call	cc	South	SM005	fo/dg	04/23/1995		g.r.		20	BK 40		MK_DT1_416
+3993	4002	Call	explan	South	SM005		04/23/1995		g.r.	SM005 with digging background				MK_DT1_417
+4002	4010	Call	explan	Jacksons	JF004		04/24/1995	4.81	g.r.					MK_DT1_418
+4010	4027	Call	wc	Jacksons	JF004	gb	04/24/1995		g.r.	"JF004 GB, others shortly GA"	20	BK 30-24		MK_DT1_419
+4027	4041	Call	explan	Jacksons	JF003		04/24/1995		g.r.	"JF004 GB, others shortly GA"				MK_DT1_420
+4041	4056	Call	cc	Jacksons	JF003	fo	04/24/1995		g.r.	cc at 1.07.25/1.07.32	20	BK 30-24		MK_DT1_421
+4056	4061	Call	explan	Jacksons	JF003		04/24/1995		g.r.	probably JF003				MK_DT1_422
+4061	4088	Call	sn	Jacksons	JF006	ga	04/24/1995	5.07	g.r.	sn at 1.07.44/1.07.49/1.07.53/1.07.55/1.07.58/1.08.00/1.08.05/1.08.07	20	BK 50-30		MK_DT1_423
+4088	4114	Call	md (wc s)	Jacksons	JF006	ga	04/24/1995		g.r.	mod al at 1.08.08/1.08.09/1.08.10/1.08.11/1.08.11/1.08.12/1.08.13/1.08.15/1.08.17/1.08.20/1.08.24/1.08.30/1.08.31/1.08.33	20	BK 50-40		MK_DT1_424
+4114	4117	Call	talking	Jacksons	JF006		04/24/1995		g.r.					MK_DT1_425
+4117	4136	Call	md (wc s)	Jacksons	JF006	ga	04/24/1995		g.r.	mod al at 1.08.39/1.08.42/1.08.45/1.08.50/1.08.52	20	BK 50-40		MK_DT1_426
+4136	4137	Call	cc	Jacksons	JF006	ga	04/24/1995	5.08	g.r.		20	BK 50-40		MK_DT1_427
+4137	4141	Call	talking	Jacksons	JF006		04/24/1995		g.r.					MK_DT1_428
+4141	4158	Call	cc	Jacksons	JF006	ga	04/24/1995		g.r.	cc at 1.09.01/1.09.04/1.09.05/1.09.06/1.09.10/1.09.11	20	BK 40		MK_DT1_429
+4158	4211	Call	explan	Jacksons	JF006		04/24/1995	5.08	g.r.	JF006 GA				MK_DT1_430
+4211	4232	Call	cc	Jacksons	JM004	fo	04/24/1995		g.r.	cc at 1.10.15/1.10.17/1.10.18/1.10.21/1.10.25/1.10.28 recordings not very loud or clear	20	BK 40-24		MK_DT1_431
+4232	4243	Call	explan	Jacksons	JM004		04/24/1995		g.r.	JM004 foraging				MK_DT1_432
+4243	4301	Call	cc	Jacksons	JF003	fo	04/24/1995	5.95	g.r.	"cc at 1.10.46/1.10.53/1.10.55/1.10.57/1.11.03/1.11.09/1.11.25 in background scratching, last 4 cc very clear  "	20	BK 30-24		MK_DT1_433
+4301	4302	Call	talking	Jacksons	JF003		04/24/1995		g.r.					MK_DT1_434
+4302	4315	Call	cc	Jacksons	JF003	fo	04/24/1995	5.96	g.r.		20	BK 30-24		MK_DT1_435
+4315	4316	Call	explan	Jacksons	JF003		04/24/1995		g.r.	JF003 foraging				MK_DT1_436
+4316	4343	Call	md	Jacksons	JF003		04/24/1995		g.r.	mod al at 1.11.57	20	BK 30-24		MK_DT1_437
+4343	4362	Call	explan	Jacksons	JF003		04/24/1995		g.r.	"JF003 calls because of bird directly above, maybe Tawny Eagle"				MK_DT1_438
+4362	4386	Call	cc	Jacksons	JF003	fo	04/24/1995	5.98	g.r.	cc at 1.12.49/1.12.52/1.12.54/1.12.58/1.13.01/1.13.03/1.13.04 unclear recordings at the beginning	20	BK 30-24		MK_DT1_439
+4386	4387	Call	explan	Jacksons	JF003		04/24/1995		g.r.	JF003 foraging				MK_DT1_440
+4387	4423	Call	bkg noise	Jacksons	JF003	fo	04/24/1995		g.r.	scratching period	20	BK 30-24		MK_DT1_441
+4423	4433	Call	cc	Jacksons	JF003	fo	04/24/1995	-5.92	g.r.		20	BK 30-24		MK_DT1_442
+4433	4440	Call	explan	Jacksons	JF003		04/24/1995		g.r.	JF003 foraging				MK_DT1_443
+4440	4448	Call	explan	South	S????		04/26/1995		g.r.	SOUTH 26/4/95				MK_DT1_444
+4448	4450	Call	sn	South	S????	su	04/26/1995	1.35	g.r.	sn at 1.14.09	20	BK 50-40		MK_DT1_445
+4450	4456	Call	rl	South	SF001??	su	04/26/1995		g.r.	rl at 1.14.12	20	BK 50-40		MK_DT1_446
+4456	4461	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.14.18	20	BK 50-40		MK_DT1_447
+4461	4467	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.14.25	20	BK 50-40		MK_DT1_448
+4467	4469	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_449
+4469	4471	Call	rl	South	SF001??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_450
+4471	4472	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_451
+4472	4474	Call	rl	South	SF001??	su	04/26/1995		g.r.	rl at 1.14.33	20	BK 50-40		MK_DT1_452
+4474	4477	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.14.35	20	BK 50-40		MK_DT1_453
+4477	4479	Call	rl	South	SF001??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_454
+4479	4484	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_455
+4484	4488	Call	rl	South	SF001??	su	04/26/1995	1.76	g.r.	rl at 1.14.46	20	BK 50-40		MK_DT1_456
+4488	4490	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_457
+4490	4492	Call	tn	South	S????	su	04/26/1995		g.r.	may be mod al	20	BK 50-40		MK_DT1_458
+4492	4493	Call	rl	South	SF001??	su	04/26/1995		g.r.	rl several	20	BK 50-40		MK_DT1_459
+4493	4500	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.14.54/1.14.56/1.14.59	20	BK 50-40		MK_DT1_460
+4500	4501	Call	rl	South	SF001??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_461
+4501	4510	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.15.02/1.15.05/1.15.06/1.15.07 in back sound like mod al	20	BK 50-40		MK_DT1_462
+4510	4523	Call	rl	South	SF001??	su	04/26/1995		g.r.	rl at 1.15.12/1.15.14	20	BK 50-40		MK_DT1_463
+4523	4534	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.15.31	20	BK 50-40		MK_DT1_464
+4534	4555	Call	md	South	SF001??	su	04/26/1995		g.r.	mod al at 1.15.35/1.15.36/1.15.37/1.15.40	20	BK 50-40		MK_DT1_465
+4555	4617	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.16.08/1.16.25/1.16.39	20	BK 50-40		MK_DT1_466
+4617	4646	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.17.02/1.17.23	20	BK 50-40		MK_DT1_467
+4646	4656	Call	rl ??	South	SF001??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_468
+4656	4682	Call	explan	South	S????	su	04/26/1995		g.r.	"whole group at the burrow, saw honey badger coming closer, can't identify callers"	20	BK 50-40		MK_DT1_469
+4682	4703	Call	sn	South	S????	su	04/26/1995	1.81	g.r.	sm at 1.18.15	20	BK 50-40		MK_DT1_470
+4703	4716	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_471
+4716	4734	Call	explan	South	S????	su	04/26/1995		g.r.	Honey badger about 100m away	20	BK 50-40		MK_DT1_472
+4734	4754	Call	rl	South	SF001??	su	04/26/1995		g.r.	best recording of rl so far	20	BK 50-40		MK_DT1_473
+4754	4755	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_474
+4755	4773	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.19.17	20	BK 50-40		MK_DT1_475
+4773	4778	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_476
+4778	4780	Call	tr (rl)	South	SF001??	su	04/26/1995		g.r.	tn goes into rl	20	BK 50-40		MK_DT1_477
+4780	4795	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.19.53	20	BK 50-40		MK_DT1_478
+4795	4796	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_479
+4796	4806	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_480
+4806	4824	Call	cc	South	S????	su	04/26/1995	1.83	g.r./bkg	cc at 1.20.07/1.20.08/1.20.09	20	BK 50-40		MK_DT1_481
+4824	4827	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_482
+4827	4835	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_483
+4835	4847	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.20.36/1.20.37	20	BK 50-40		MK_DT1_484
+4847	4860	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.20.51	20	BK 50-40		MK_DT1_485
+4860	4864	Call	tr (rl)	South	SF001??	su	04/26/1995	1.83	g.r.		20	BK 50-40		MK_DT1_486
+4864	4888	Call	cc (md)	South	SF001??	su	04/26/1995		g.r.	cc at 1.21.07/1.21.08/1.21.14/1.21.16 maybe mod al	20	BK 50-40		MK_DT1_487
+4888	4968	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.21.30/1.21.41/1.22.19/1.22.36	20	BK 50-40		MK_DT1_488
+4968	4973	Call	cc	South	S????	su	04/26/1995		g.r./bkg		20	BK 50-40		MK_DT1_489
+4973	4976	Call	an	South	S????	su	04/26/1995		g.r.	an = 2*zn	20	BK 50-40		MK_DT1_490
+4976	4983	Call	tn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_491
+4983	4994	Call	an	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_492
+4994	5000	Call	tn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_493
+5000	5003	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_494
+5003	5015	Call	explan	South	S????		04/26/1995		g.r.	"Honey badger 150m away, group relaxed"				MK_DT1_495
+5015	5034	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.23.36/1.23.39/1.23.40/1.23.49	20	BK 40-30		MK_DT1_496
+5034	5036	Call	ac	South	S????	su	04/26/1995		g.r.	ac at 1.23.55	20	BK 40-30		MK_DT1_497
+5036	5041	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_498
+5041	5102	Call	explan	South	S????		04/26/1995		g.r.	"began giving rl, probably SF001, when saw honey badger first about 500m away, when came closer 2 went down into burrow, watched int"				MK_DT1_499
+5102	5107	Call	cc	South	S????	su	04/26/1995	2.02	g.r.		20	BK 50-40		MK_DT1_500
+5107	5108	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_501
+5108	5115	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_502
+5115	5119	Call	cc	South	S????	su	04/26/1995		g.r./bkg		20	BK 50-40		MK_DT1_503
+5119	5142	Call	cc	South	S????	su	04/26/1995		g.r.	cc at 1.25.27/1.25.39	20	BK 50-40		MK_DT1_504
+5142	5147	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_505
+5147	5149	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_506
+5149	5151	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_507
+5151	5168	Call	explan	South		su	04/26/1995		g.r.	SF001 gave most of calls	20	BK 50-40		MK_DT1_508
+5168	5170	Call	md	South	SF001??	su	04/26/1995		g.r.	"mod al at 1.26.09, alarm because of jackal"	20	BK 50-40		MK_DT1_509
+5170	5171	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_510
+5171	5172	Call	md	South	SF001??	su	04/26/1995		g.r.	"mod al at 1.26.11 with talking in bkg, alarm because of jackal"	20	BK 50-40		MK_DT1_511
+5172	5175	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_512
+5175	5190	Call	md	South	SF001??	su	04/26/1995		g.r.	"mod al at 1.26.16, alarm because of jackal"	20	BK 50-40		MK_DT1_513
+5190	5193	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_514
+5193	5198	Call	md	South	SF001??	su	04/26/1995		g.r.	"mod al at 1.26.37, alarm because of jackal"	20	BK 50-40		MK_DT1_515
+5198	5201	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_516
+5201	5216	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_517
+5216	5217	Call	md	South	SF001??	su	04/26/1995		g.r.	"mod al at 1.26.57, alarm because of jackal"	20	BK 50-40		MK_DT1_518
+5217	5227	Call	talking	South	S????	su	04/26/1995		g.r.	"alarm because of jackal ca 150m away, WI"	20	BK 50-40		MK_DT1_519
+5227	5228	Call	md	South	SF001??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_520
+5228	5244	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_521
+5244	5245	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_522
+5245	5248	Call	zn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_523
+5248	5251	Call	cc	South	S????	su	04/26/1995	2.05	g.r.		20	BK 50-40		MK_DT1_524
+5251	5267	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_525
+5267	5274	Call	cc (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_526
+5274	5276	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.	sn at 1.27.55	20	BK 50-40		MK_DT1_527
+5276	5281	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_528
+5281	5283	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_529
+5283	5294	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_530
+5294	5296	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_531
+5296	5299	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_532
+5299	5300	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_533
+5300	5305	Call	ac	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_534
+5305	5314	Call	talking	South	S????	su	04/26/1995		g.r.	"2 digging, 4 WI Jackal"	20	BK 40-30		MK_DT1_535
+5314	5318	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_536
+5318	5324	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_537
+5324	5331	Call	talking	South	S????	su	04/26/1995		g.r.	Jackal 150m away	20	BK 40-30		MK_DT1_538
+5331	5332	Call	zn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_539
+5332	5352	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_540
+5352	5363	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.29.20/1.29.21	20	BK 50-30		MK_DT1_541
+5363	5364	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_542
+5364	5365	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_543
+5365	5368	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_544
+5368	5370	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-30		MK_DT1_545
+5370	5372	Call	cc	South	S????	su	04/26/1995		g.r./bkg		20	BK 40-30		MK_DT1_546
+5372	5388	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 40-30		MK_DT1_547
+5388	5402	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.29.50	20	BK 40-30		MK_DT1_548
+5402	5404	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-30		MK_DT1_549
+5404	5410	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.	sn at 1.30.07	20	BK 40-30		MK_DT1_550
+5410	5417	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.30.12/1.30.14	20	BK 50-40		MK_DT1_551
+5417	5422	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_552
+5422	5423	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_553
+5423	5424	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_554
+5424	5430	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_555
+5430	5431	Call	sn (gkz)	South	SM004??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_556
+5431	5435	Call	zn (gkz)	South	SM004	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_557
+5435	5440	Call	explan	South	S????	su	04/26/1995		g.r.	SM004 last one	20	BK 50-40		MK_DT1_558
+5440	5442	Call	zn	South	SF003	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_559
+5442	5443	Call	zn (gkz)	South	SF003??	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_560
+5443	5446	Call	explan	South	S????	su	04/26/1995		g.r.	SF003 last two voc	20	BK 50-40		MK_DT1_561
+5446	5452	Call	zn (gkz)	South	S????	su	04/26/1995		g.r.	zn at 1.30.47/1.30.51	20	BK 50-40		MK_DT1_562
+5452	5454	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.	sn at 1.30.53	20	BK 50-40		MK_DT1_563
+5454	5466	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_564
+5466	5467	Call	sn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_565
+5467	5468	Call	zn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_567
+5468	5470	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_568
+5470	5471	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_569
+5471	5475	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_570
+5475	5477	Call	tc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_571
+5477	5478	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_572
+5478	5479	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_573
+5479	5480	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_574
+5480	5485	Call	sn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_575
+5485	5487	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_576
+5487	5490	Call	sn	South	S????	su	04/26/1995		g.r.	sn at 1.31.29	20	BK 50-40		MK_DT1_577
+5490	5491	Call	cc	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_578
+5491	5492	Call	talking	South	S????	su	04/26/1995	2.15	g.r.	Cape Fox	20	BK 50-40		MK_DT1_579
+5492	5497	Call	zn	South	S????	su	04/26/1995		g.r.	zn at 1.31.33/1.31.35	20	BK 50-40		MK_DT1_580
+5497	5498	Call	zn (gkz)	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_581
+5498	5499	Call	zn	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_582
+5499	5504	Call	talking	South	S????	su	04/26/1995		g.r.		20	BK 50-40		MK_DT1_583
+5504	5507	Call	mc	South	S????	su	04/26/1995	2.16	g.r.		20	BK 50-40		MK_DT1_584
+5507	5520	Call	explan	South	S????	su	04/26/1995		g.r.	Cape Fox 200m away	20	BK 50-40		MK_DT1_585
+5520	5523	Call	cc	South	SF001	gb	04/26/1995		g.r.		20	50-40		MK_DT1_586
+5523	5545	Call	md	South	SF001	gb	04/26/1995		g.r.	mod al at 1.32.04/1.32.07/1.32.10/1.32.12/1.32.15/1.32.18/1.32.20/	20	50-40		MK_DT1_587
+5545	5556	Call	kc	South	SF001	gb	04/26/1995	2.88	g.r.	kc at 1.32.28/1.32.34	20	50-40		MK_DT1_588
+5556	5564	Call	zn	South	SF001	gb	04/26/1995		g.r.		20	50-40		MK_DT1_589
+5564	5565	Call	kc	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_590
+5565	5572	Call	explan	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_591
+5572	5573	Call	zn	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_592
+5573	5579	Call	talking	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_593
+5579	5580	Call	zn	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_594
+5580	5590	Call	talking	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_595
+5590	5663	Call	zn	South	SF001	gb	04/26/1995		g.r.		20	30-24		MK_DT1_596
+5663	5695	Call	cc	South	SM005	fo	04/26/1995	3.05	g.r.	cc at 1.34.28/1.34.33/1.34.37/1.34.48/1.34.52	20	40-30		MK_DT1_597
+5695	5704	Call	cc	South	SM005	fo	04/26/1995		g.r./bkg		20	40-30		MK_DT1_598
+5704	5707	Call	cc	South	SM005	fo	04/26/1995		g.r.		20	40-30		MK_DT1_599
+5707	5721	Call	cc	South	SM005	fo	04/26/1995		g.r./bkg		20	40-30		MK_DT1_600
+5721	5723	Call	cc	South	SM005	fo	04/26/1995		g.r.		20	40-30		MK_DT1_601
+5723	5734	Call	explan	South	SM005	fo	04/26/1995		g.r.		20	40-30		MK_DT1_602
+5734	5744	Call	cc	South	SM005??	fo	04/26/1995		g.r./bkg		20	40-30		MK_DT1_603

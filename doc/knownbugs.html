@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>AGLIB documentation: Known problems</title>
+</head>
+<body bgcolor="#ffffee">
+
+<h3>Known problems</h3>
+
+<hr>
+
+<p><b>Bigball AG wrappers and file I/O plugins</b></p>
+<p>The bigball ag wrappers, which are built with the <a
+href="install.html#--enable-bigball">--enable-bigball</a> option,
+won't work with file I/O plugins. It's because there are two seperate
+AG data spaces: one in the bigball wrapper modules, and the other one in
+the library linked with the file I/O modules. Thus you can load annotation
+files using the plugins, but you cannot access the loaded AGs through
+the bigball wrappers, because the loaded AGs are in a different space.</p>
+
+<hr><a href="http://agtk.sourceforge.net/">Annotation Graph Toolkit</a>
+
+</body> </html>

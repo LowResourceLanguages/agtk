@@ -1,0 +1,14 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag
+LDFLAGS=-L../../ag/.libs -lag
+
+all: TreeBank.so demo
+
+TreeBank.so: TreeBank.o TBparser.o TBhandler.o TB_UPenn_WSJ_EscapeHandler.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+demo: demo.o
+
+clean:
+	-rm *.o *.so demo

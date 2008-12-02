@@ -1,0 +1,14 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag -I$(WORK)/../software/include
+LDFLAGS=-L../../ag/.libs -lag
+
+all: ATLAS.so demo
+
+ATLAS.so: ATLAS_load.o ATLAS_store.o SAX_ATLASHandlers.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+demo: demo.o
+
+clean:
+	-rm *.o *.so demo
