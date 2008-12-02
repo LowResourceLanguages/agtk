@@ -1,0 +1,14 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag
+LDFLAGS=-L../../ag/.libs -lag
+
+all: TF.so demo
+
+TF.so: TF.o TFfile.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+demo: demo.o
+
+clean:
+	-rm *.o *.so demo

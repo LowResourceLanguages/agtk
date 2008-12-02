@@ -1,0 +1,14 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag -I$(WORK)/../software/include
+LDFLAGS=-L../../ag/.libs -lag
+
+all: AG.so demo
+
+AG.so: AG.o SAX_AGHandlers.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+demo: demo.o
+
+clean:
+	-rm *.o *.so demo

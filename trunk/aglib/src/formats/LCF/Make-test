@@ -1,0 +1,20 @@
+CC=gcc
+CXX=g++
+CPPFLAGS=-I../../ag
+LDFLAGS=-L../../ag/.libs -lag
+
+all: LCF.so demo
+
+LCF.so: LCF.o LCFfile.o
+	gcc -shared -o $@ $^ $(LDFLAGS)
+
+LCF.o: LCF.h LCF.cc
+
+LCFfile.o: LCFfile.h LCFfile.cc
+
+demo: demo.o
+
+demo.o: demo.cc
+
+clean:
+	-rm *.o *.so demo

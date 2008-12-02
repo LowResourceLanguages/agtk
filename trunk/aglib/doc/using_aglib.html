@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>AGLIB documentation: Using AGLIB (AGAPI) with C++</title>
+</head>
+<body bgcolor="#ffffee">
+
+<h3>Using AGLIB (AGAPI) with C++</h3>
+
+<hr>
+
+<p> This section explains how to use AGLIB with a C++ example.</p>
+
+<p>The following is example C++ code that uses AGLIB:</p>
+
+<p><table border="1px" cellpadding="3px">
+<tr><td><pre>
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td>
+<td bgcolor="#e0e0e0"><pre>
+#include &lt;iostream&gt;
+#include &lt;set&gt;
+#include &lt;ag/AGAPI.h&gt;
+using namespace std;
+
+int main()
+{
+  AGSetId agsetId = CreateAGSet("TIMIT");
+
+  TimelineId timelineId = CreateTimeline(agsetId);
+
+  SignalId signalId2 = CreateSignal(timelineId,
+                                    "LDC93S1:train/dr1/fjsp0/sa1.wav",
+                                    "audio",
+                                    "wav",
+                                    "wav",
+                                    "16kHz",
+                                    "2");
+  set&lt;SignalId> signalIds;
+  signalIds.insert(signalId2);
+
+  AGId agId = CreateAG(agsetId, timelineId);
+  SetFeature(agId, "Purpose", "Testing");
+</pre></td></tr>
+</table></p>
+
+<p><u>Line 3</u><br>
+You have to include AGAPI.h to use AGAPI functions.
+</p>
+
+<p><u>Line 8</u><br>
+Create an AG set with "TIMIT" as its ID.
+</p>
+
+<p><u>Line 10</u><br>
+Add a timeline to the TIMIT AGSet.
+</p>
+
+<p><u>Lines 12-18</u><br>
+Add a signal to annotate to the timeline.  The signal is located in
+<b>LDC93S1:train/dr1/fjsp0/sa1.wav</b>, its MIME class is <b>audio</b>,
+MIME type is <b>wav</b>, encoding is <b>wav</b>, sampling rate (unit) is
+<b>16kHz</b>, and the channel we are interested in is <b>2</b>.
+</p>
+
+<p><u>Lines 19-20</u><br>
+Make a signal set with the signal we just created.  We will annotate
+this signal set later.
+</p>
+
+<p><u>Lines 22-23</u><br>
+Create an AG and associate the timeline with it.  Put some metadata on it:
+Purpose=Testing.
+</p>
+
+
+<p><table border="1px" cellpadding="3px">
+<tr><td><pre>
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+</pre></td>
+<td bgcolor="#e0e0e0"><pre>
+  AnchorId anchor1 = CreateAnchor(agId, 10, "sec", signalIds);
+  AnchorId anchor2 = CreateAnchor(agId, 20, "sec", signalIds);
+  AnchorId anchor3 = CreateAnchor(agId, 30, "sec", signalIds);
+
+  AnnotationId annotation1 = CreateAnnotation(agId, anchor1, anchor2, "sentence");
+  AnnotationId annotation2 = CreateAnnotation(agId, anchor2, anchor3, "sentence");
+
+  SetFeature(annotation1,"label","He will walk to the store.");
+  SetFeature(annotation2,"label","He will be walking.");
+
+  cout &lt;&lt; toXML(agsetId);
+}
+</pre></td></tr>
+</table></p>
+
+<p><u>Lines 24-26</u><br>
+Create anchors on the signal set.
+</p>
+
+<p><u>Lines 28-29</u><br>
+Create sentence annotations.
+</p>
+
+<p><u>Lines 31-32</u><br>
+Put labels on the annotations.
+</p>
+
+<p>NOTE: Please don't forget to set <tt>LD_LIBRARY_PATH</tt> properly for
+the other required shared libraries (libag and plugins). See
+<a href="install.html#post">Post-installation</a> for details.</p>
+
+<hr><a href="http://agtk.sourceforge.net/">Annotation Graph Toolkit</a>
+
+</body>
+</html>
+
+

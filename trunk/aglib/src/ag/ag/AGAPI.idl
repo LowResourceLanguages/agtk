@@ -1,0 +1,1312 @@
+/**
+ * @brief AGAPI interface.
+ *
+ * This is a description of AGAPI. In this description, although function
+ * signatures are represented in C++ style, it's straightforward to
+ * translate them to other languages. C++ programmers should check the
+ * exact argument types and return types in AGAPI.h for some functions
+ * return or accept pointer types, and set and list should be distinguished.
+ * Java programmers also should check the exact types to use in jag.java
+ * for the similar reasons.
+ *
+ * Here is how functions are represented in this desctiption:
+ *
+ * <table border="1px"><tr><td><pre>
+ * <return type> AGAPI::<function name> ( <arg list> )
+ *
+ * <arg list> :=
+ *        _empty_string_
+ *      | <arg type> <arg name>
+ *      | <arg type> <arg name> = <default value>
+ *      | <arg type> <arg name> , <arg list>
+ *      | <arg list> , <arg type> <arg name> = <default value>
+ *
+ * <arg type> :=
+ *        <base type>
+ *      | <compound type>
+ *
+ * <return type> :=
+ *        <base type>
+ *      | <compound type>
+ *
+ * <compound type> :=
+ *        sequence< <base type> >
+ *      | hash< <base type> , <base type> >
+ *
+ * <base type> :=
+ *        (one of the types listed in typedef statements above)
+ *       | bool | int | float | double | string
+ * </pre></td></tr></table>
+ *
+ * <li><tt><default value></tt> is the value assigned to the argument when
+ * the argument is not present in the function call.
+ * <li><tt>sequence<t1></tt> is a list type, in which elements are
+ * of t1 type. 
+ * <li><tt>hash<t1,t2></tt> is a hash table type, in which keys are
+ * of t1 type and values are t2 type.
+ *
+ * Here is an example:
+ *
+ * <table border="1px"><tr><td><pre>
+ * sequence<AnnotationId>
+ * AGAPI::GetIncomingAnnotationSet(
+ *         AnchorId anchorId,
+ *         AnnotationType type=""
+ * )</pre>
+ * </td></tr></table>
+ *
+ * Function GetIncomingAnnotationSet returns a sequence(list) of
+ * AnnotationIds. It takes an AnchorId as an argument. AnnotationType can
+ * be given optionally. If it is not given, default value for type is an
+ * empty string, which mean no type is given.
+ *
+ * @author Steven Bird, Xiaoyi Ma, Haejoong Lee (LDC)
+ * @version 2.0
+ * @updated 2003-02-01
+ **/
+interface AGAPI {
+
+  /// Generic identifier (can be from any of AGSetId, AGId, AnnotationId, TimelineId, SignalId)
+  typedef string Id;              
+  /// AGSet identifier
+  typedef string AGSetId;         
+  /// AG identifier
+  typedef string AGId;
+  /// Annotation identifier
+  typedef string AnnotationId;
+  /// Annotation type
+  typedef string AnnotationType;
+  /// Anchor identifier
+  typedef string AnchorId;
+  /// Timeline identifier
+  typedef string TimelineId;
+  /// Signal identifier
+  typedef string SignalId;
+  /// feature name
+  typedef string FeatureName;
+  /// feature value
+  typedef string FeatureValue;
+  /// a uniform resource identifier
+  typedef string URI;
+  /// the MIME class
+  typedef string MimeClass;
+  /// the MIME type
+  typedef string MimeType;
+  /// the signal encoding
+  typedef string Encoding;
+  /// the unit for offsets
+  typedef string Unit;
+  /// the offset into a signal
+  typedef double Offset;
+  /// the track of a signal
+  typedef string Track;
+
+
+
+  /**
+   * @name AGSet functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create a new AGSet.
+   *
+   * @param agSetId the id of the new AGSet
+   * @return the AGSetId of the new AGSet.
+   * @throw AGException IF (the an AGSet with the same id already exists)
+   **/
+  AGSetId      CreateAGSet(      AGSetId        agSetId);
+
+  /// Test if an AGSet exists
+  bool      ExistsAGSet(      AGSetId        agSetId);
+
+  /**
+   * @brief
+   *   Delete an AGSet.
+   *
+   * @param agSetId the AGSet to be deleted
+   * @throw AGException IF (the AGSet does not exist)
+   **/
+  void         DeleteAGSet(         AGSetId        agSetId);
+
+
+  /**
+   * @brief
+   *   Get all the Ids of AGs which belong to the specified AGSet.
+   *
+   * @param agsetId
+   *   The AGSet.
+   * @return
+   *   List of AGIds.
+   **/
+  sequence<AGId>
+  GetAGIds(AGSetId agsetId);
+
+  //@}
+
+
+
+  /**
+   * @name Timeline functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create a new timeline and add it to the AGSet.
+   *
+   * @param id might be AGSetId or TimelineId. If id is an AGSetId, a TimelineId
+   * will be assigned to the new timeline. If id is a TimelineId, it will try the given id
+   * first, if it's taken, assign a new TimelineId.
+   * @return TimelineId of the new timeline.
+   * @throw AGException IF (the id given is invalid)
+   */
+  TimelineId   CreateTimeline(   Id     id );
+  
+  /// Test if a timeline exists
+  bool      ExistsTimeline(   TimelineId     timelineId );
+  
+  /// Delete a timeline
+  void         DeleteTimeline(   TimelineId     timelineId );
+  
+  /**
+   * @brief
+   *   Get a list of all the Ids of sigals which belong to the specified
+   *   timeline.
+   *
+   * @param timelineId
+   *   The id of the timeline.
+   * @return
+   *   A list of SignalIds.
+   */
+  sequence<SignalId>
+  GetSignals(TimelineId timelineId);
+
+  //@}
+
+
+
+
+  /**
+   * @name Signal functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create a new signal and add it to the timeline.
+   *
+   * @param id
+   *   might be TimelineId or SignalId. If id is a TimelineId, an SignalId
+   *   will be assigned to new Signal. If id is a SignalId, it will try the
+   *   given id first, if it's taken, assign a new SignalId.
+   * @return SignalId of the new signal.
+   * @throw AGException IF (the id given is invalid)
+   */
+  SignalId     CreateSignal(     Id             id,
+                                 URI            uri,
+                                 MimeClass      mimeClass,
+                                 MimeType       mimeType,
+                                 Encoding       encoding,
+				 Unit           unit,
+                                 Track          track );
+  
+  /// Test if a signal exists
+  bool      ExistsSignal(     SignalId       signalId );
+  
+  /// Delete a signal
+  void         DeleteSignal(     SignalId       signalId );
+  
+  /// Get the MimeClass of the specified signal
+  MimeClass    GetSignalMimeClass(SignalId      signalId );
+  /// Get the MimeType of the specified signal
+  MimeType     GetSignalMimeType( SignalId      signalId );
+  /// Get the encoding of the specified signal
+  Encoding     GetSignalEncoding( SignalId      signalId );
+  /// Get the XlinkType of the specified signal
+  string       GetSignalXlinkType(SignalId      signalId );
+  /// Get the XlinkHref of the specified signal
+  string       GetSignalXlinkHref(SignalId      signalId );
+  /// Get the unit of the specified signal
+  string       GetSignalUnit(     SignalId      signalId );
+  /// Get the track of the specified signal
+  Track        GetSignalTrack(    SignalId      signalId );
+
+  //@}
+
+
+
+
+
+  /**
+   * @name AG functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create a new AG and add it to the AGSet.
+   *
+   * @param id might be AGSetId or AGId. If id is an AGSetId, an AGId
+   * will be assigned to the new AG. If id is an AGId, it will try the given
+   * id first, if it's taken, assign a new AGId.
+   * @return the AGId of the new AG.
+   * @throw AGException IF (the id given is invalid)
+   */
+  AGId
+  CreateAG(         Id             id);
+
+  /**
+   * @brief
+   *   Create a new AG and add it to the AGSet.
+   *
+   * @param id might be AGSetId or AGId. If id is an AGSetId, an AGId
+   * will be assigned to the new AG. If id is an AGId, it will try the given
+   * id first, if it's taken, assign a new AGId.
+   * @param timelineId the id of the timeline with which the new AG will be
+   * associated.
+   * @return the AGId of the new AG.
+   * @throw AGException IF (the id given is invalid OR the timeline doesn't
+   * exist)
+   */
+  AGId
+  CreateAG(         Id             id,
+		    TimelineId     timelineId );
+  
+  /// Test if an AG exists
+  bool      ExistsAG(         AGId           agId );
+  
+  /// Delete an AG
+  void         DeleteAG(         AGId           agId );
+
+  /**
+   * @brief
+   *   Get all the anchors in an AG
+   *
+   * @param agId
+   *   The AG.
+   * @return
+   *   List of AnchorIds.
+   */
+  sequence<AnchorId>
+  GetAnchorSet(AGId agId);
+
+  /**
+   * @brief
+   *   Get all anchors which are anchored at the given offset.
+   *
+   * @param agId
+   *   The id of the AG within which to search qualified anchors.
+   * @param offset
+   *   The offset.
+   * @return
+   *   A list of all anchors which are in the specified AG and are
+   *   anchored at the given offset.
+   * @note
+   *   An anchor a is returned if a belongs the AG AND
+   *   a is anchored AND the offset of a equals to offset.
+   */
+  sequence<AnchorId>
+  GetAnchorSetByOffset(AGId agId, Offset offset);
+
+  /**
+   * @brief
+   *   Get all anchors which are anchored within specified distance 
+   *   of the given offset.
+   *
+   * @param agId
+   *   The id of the AG within which to search qualified anchors.
+   * @param offset
+   *   The offset.
+   * @param epsilon
+   *   The distance.
+   * @return
+   *   A list of all anchors which are in the specified AG and are
+   *   anchored at the given offset.
+   * @note
+   *   An anchor a is returned if a belongs the AG AND a is anchored
+   *   AND the offset of a >= offset-epsilon AND the offset of
+   *   a <= offset+epsilon
+   */
+  sequence<AnchorId>
+  GetAnchorSetByOffset(AGId agId, Offset offset, float epsilon);
+
+
+  /**
+   * @brief
+   *   Get a list of all anchors which are anchored at the closest offset to
+   *   the given offset.
+   *
+   * This function first finds the existing offset o which is nearest
+   * to the given offset, then returns all the anchors that anchor at
+   * offset o.
+   */
+  sequence<AnchorId>
+  GetAnchorSetNearestOffset(AGId agId, Offset offset);
+
+
+  /**
+   * @brief
+   *   Get a list of all annotation ids in the given annotation graph.
+   *
+   * If the annotation type is given, only the ids of annotations of
+   * the type will be returned.
+   *
+   * @note
+   *   Nothing should be assumed about the order of the returned ids.
+   *   To retrieve all the annotations in the order of there start offsets,
+   *   use GetAnnotationSeqByOffset.
+   */
+  sequence<AnnotationId>
+  GetAnnotationSet(AGId agId, AnnotationType type="");
+
+
+  /**
+   * @brief
+   *   Get a list of all annotations whose specified feature equals to the
+   *   specified value.
+   *
+   * If type is given, only the annotations of the
+   * given type are considered in the computation.
+   */
+  sequence<AnnotationId>
+  GetAnnotationSetByFeature(AGId agId,
+			    FeatureName featureName,
+			    FeatureValue featureValue,
+			    AnnotationType type="");
+
+
+  /**
+   * @brief
+   *   Get a list of all annotations which hangs over a given offset.
+   *
+   * Return all annotations whose start offset is smaller than or
+   * equal to the given offset AND whose end offset is greater than
+   * or equal to the given offset.
+   *
+   * If type is given, only the annotaions of the given type are concidered
+   * in the computation.
+   */
+  sequence<AnnotationId>
+  GetAnnotationSetByOffset(AGId agId,
+			   Offset offset,
+			   AnnotationType type="");
+
+
+  /**
+   * @brief
+   *   Get an ordered list of AnnotationIds within the given interval.
+   *
+   * If none of begin and end are given (if begin=end=0.0),
+   * get a list of all annotations of the given type.
+   *
+   * If only begin is given (if begin!=0.0 and end=0.0),
+   * get a list of all the annotations with start offset are greater than or 
+   * equal to specified offset, sort by using start anchor offset
+   * as first sorting key and end anchor offset as the second.
+   *
+   * If both begin and end are given (if begin!=0.0 and end!=0.0),
+   * get a list of all the annotations with start anchor offset in between 
+   * the specified offsets, sort by using start anchor offset
+   * as first sorting key and end anchor offset as the second.
+   *
+   * If type is given, only the annotations of the given type are included
+   * in the computation.
+   */
+  sequence<AnnotationId>
+  GetAnnotationSeqByOffset(AGId agId,
+			   Offset begin=0.0,
+			   Offset end=0.0,
+			   AnnotationType type="");
+
+
+  /**
+   * @brief
+   *   Get one of the annotations which overlap a particular time offset.
+   *
+   * Should be favored over GetAnnotationSetByOffset whenever possible.
+   * If type is given, only the annotations of the given type is
+   * considered in the computation.
+   *
+   * @see GetAnnotationSetByOffset
+   */ 
+   AnnotationId
+   GetAnnotationByOffset(AGId agId,
+			 Offset offset,
+			 AnnotationType type="");
+
+  //@}
+
+
+
+
+
+  /**
+   * @name Annotation functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create a new annotation.
+   *
+   * @param id might be AGId or AnnotationId. If id is an AGId, an AnnotationId
+   * will be assigned to the new annotation. If id is an AnnotationId, it will 
+   * try the given id first, if it's taken, assign a new AnnotationId.
+   * @return the AnnotationId of the new annotation.
+   * @throw AGException IF (the id given is invalid)
+   */
+  AnnotationId CreateAnnotation( Id              id,
+                                 AnchorId        start,
+                                 AnchorId        end,
+                                 AnnotationType  annotationType );
+  
+  /// Test if an annotation exists
+  bool      ExistsAnnotation( AnnotationId    annotationId );
+  /// Delete an annotation
+  void         DeleteAnnotation( AnnotationId    annotationId );
+
+  /**
+   * @brief
+   *   Clone an annotation.
+   *
+   * Make a copy of the specified annotation, assign the new 
+   * annotation a new AnnotationId.
+   * @param annotationId the original annotation
+   * @return the AnnotationId of the clone
+   */
+  AnnotationId CopyAnnotation(   AnnotationId    annotationId );
+
+  /**
+   * @brief
+   *   Split an annotation in two.
+   *
+   * Split an annotation <i>a</i> in two, creating a new annotation <i>a'</i>
+   * having the same label data as the original one.
+   * The two annotations <i>a</i>, <i>a'</i> connect head-to-tail at a
+   * new anchor.  The new annotation and anchor have identifiers
+   * assign from the specified identifier spaces. The new anchor is
+   * unanchored, i.e. has no offset.
+   *
+   * @param annotationId
+   *   The annotation to be split.
+   * @return
+   *   A list of the AnnotationIds of the <i>a</i> and <i>a'</i>.
+   */  
+  sequence<AnnotationId>
+  SplitAnnotation(AnnotationId annotationId);
+
+
+  /**
+   * @brief
+   *   Split an annotation to n annotations.
+   *
+   * A version of split which does the split operation n-1 times, i.e.
+   * split the original annotation into n annotations.
+   *
+   * @param annotationId
+   *   The annotation to be split.
+   * @param N
+   *   An integer specifying the number of annotations to split into.
+   * @return
+   *   The set of new annotations, including the original one.
+   * @see SplitAnnotation
+   */
+  sequence<AnnotationId>
+  NSplitAnnotation(AnnotationId annotationId, short N);
+
+  
+  /// Get the type of the annotation.
+  AnnotationType GetAnnotationType( AnnoationId annotationId );
+  /// Get the start anchor
+  AnchorId     GetStartAnchor(   AnnotationId    annotationId );
+  /// Get the end anchor
+  AnchorId     GetEndAnchor(     AnnotationId    annotationId );
+
+
+  /**
+   * @brief
+   *   Get all the information of the specified annotation.
+   *
+   * @return a string containing annotation type, start anchor offset, 
+   * end anchor offset, start anchor id, end anchor id and all features
+   * in DCSV format.
+   * @note see http://dublincore.org/documents/2000/07/28/dcmi-dcsv/
+   * for details about DCSV format.
+   **/
+  string
+  GetAnnotationInfo( AnnoationId annotationId );
+
+  /// Set the start of an annotation to the specified anchor
+  void         SetStartAnchor(   AnnotationId    annotationId,
+                                 AnchorId        anchorId );
+  /// Set the end of an annotation to the specified anchor
+  void         SetEndAnchor(     AnnotationId    annotationId,
+                                 AnchorId        anchorId );
+  
+  /// Get the offset of the start anchor of an annotatino
+  Offset       GetStartOffset(   AnnotationId    annotationId );
+  /// Get the offset of the end anchor of an annotation
+  Offset       GetEndOffset(     AnnotationId    annotationId );
+  /// Set the offset of the start anchor of an annotation
+  void         SetStartOffset(   AnnotationId    annotationId,
+                                 Offset          offset );
+  /// Set the offset of the end anchor of an annotation
+  void         SetEndOffset(     AnnotationId    annotationId,
+                                 Offset          offset );
+
+  /**
+   * @brief
+   *   Test structural precedence of one annotation over the other.
+   */
+  bool
+  SPrecedes(AnnotationId annotationId1,
+	    AnnotationId annotationId2);
+
+  //@}
+
+
+
+
+  /**
+   * @name Anchor functions
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Create an anchor with specified offset, unit and signals.
+   *
+   * @param id
+   *   It might be AGId or AnchorId. If id is a AGId, an AnchorId
+   *   will be assigned the new anchor. If id is a AnchorId, it will try
+   *   the given id first, if it's taken, assign a new AnchorId.
+   * @param offset
+   * @param unit
+   * @param signalIds
+   *   A list of SignalIds.
+   * @return
+   *   AnchorId of the new anchor.
+   * @throw AGException IF (the id given is invalid)
+   */
+  AnchorId
+  CreateAnchor(Id id, Offset offset, Unit unit, sequence<SignalId> signalIds);
+
+  
+  /**
+   * @brief
+   *   Create an anchor with specified signals.
+   *
+   * @param id
+   *   It might be AGId or AnchorId. If id is a AGId, an AnchorId
+   *   will be assigned the new anchor. If id is a AnchorId, it will try the 
+   *   given id first, if it's taken, assign a new AnchorId.
+   * @param signalIds
+   *   A list of SignalIds.
+   * @return
+   *   AnchorId of the new anchor.
+   * @throw AGException IF (the id given is invalid)
+   */
+  AnchorId
+  CreateAnchor(Id id, sequence<SignalId> signalIds);
+
+
+  /**
+   * @brief
+   *   Create an anchor.
+   *
+   * @param id
+   *   It might be AGId or AnchorId. If id is a AGId, an AnchorId
+   *   will be assigned the new anchor. If id is a AnchorId, it will try the 
+   *   given id first, if it's taken, assign a new AnchorId.
+   * @return
+   *   AnchorId of the new anchor.
+   * @throw AGException IF (the id given is invalid)
+   */
+  AnchorId
+  CreateAnchor(Id id);
+
+
+  /// Test if an anchor exists
+  bool      ExistsAnchor(     AnchorId       anchorId );
+  /// Delete an anchor
+  void         DeleteAnchor(     AnchorId       anchorId );
+  /// Set the offset of an anchor
+  void         SetAnchorOffset(  AnchorId       anchorId,
+                                 Offset         offset );
+  /**
+   * @brief
+   *   Unset the offset of an anchor.
+   *
+   * The anchor becomes unanchored after being unset.
+   */
+  void
+  UnsetAnchorOffset(AnchorId       anchorId );
+  
+  /// Get the offset of an anchor
+  Offset       GetAnchorOffset(  AnchorId       anchorId );
+
+  /// Test if an anchor is anchored (has offset)
+  bool      GetAnchored(AnchorId anchorId );
+
+  /// Set the unit of the offset of an anchor
+  void         SetOffsetUnit(    AnchorId       anchorId,
+			         Unit           unit);
+  /// Get the unit of the offset of an anchor
+  Unit         GetOffsetUnit(    AnchorId       anchorId);
+
+
+  /**
+   * @brief
+   *   Set the SignalIds associated with the given anchor.
+   */
+  void
+  SetAnchorSignalIds(AnchorId anchorId, sequence<SignalId> signalIds);
+
+
+  /**
+   * @brief
+   *   Get a list of the signal Ids associated with the given anchor.
+   */
+  sequence<SignalId>
+  GetAnchorSignalIds(AnchorId anchorId);
+
+
+  /**
+   * @brief
+   *   Split an anchor in two.
+   *
+   * Split an anchor a in two, creating a new anchor a'
+   * having the same offset as the original one.
+   * Anchor a has all the incoming annotations, while
+   * anchor a' has all the outgoing annotations.
+   * @return the id of the new anchor a'.
+   */
+  AnchorId
+  SplitAnchor(      AnchorId       anchorId );
+
+  
+  /**
+   * @brief
+   *   Get the incoming annotations of an anchor.
+   *
+   * If type is given, annotations of other types than the given type are
+   * filtered out in the return value.
+   */
+  sequence<AnnotationId>
+  GetIncomingAnnotationSet(AnchorId anchorId, AnnotationType type="");
+
+
+  /**
+   * @brief
+   *   Get the outgoing annotations of an anchor.
+   *
+   * If type is given, annotations of other types than the given type are
+   * filtered out in the return value.
+   */
+  sequence<AnnotationId>
+  GetOutgoingAnnotationSet(AnchorId anchorId, AnnotationType type="");
+
+  //@}
+
+
+
+
+  /**
+   * @name General functions for various objects
+   * @{
+   */
+
+  /**
+   * @brief
+   *   Get the AGSetId of the given id.
+   *
+   * @note
+   *   id may be AGId, AnnotationId, AnchorId, TimelineId,
+   *   or SignalId.
+   */
+  AGSetId
+  GetAGSetId(Id id);
+
+  /**
+   * @brief
+   *   Get the AGId of the given id.
+   *
+   * @note id may be AnnotationId or AnchorId.
+   */
+  AGId
+  GetAGId(          Id             id );
+
+  /**
+   * @brief
+   *   Get the TimelineId of the given id.
+   *
+   * @note id may be AGId or SignalId.
+   */
+  TimelineId
+  GetTimelineId(    Id             id );
+
+
+  /**
+   * @brief
+   *   Get a list of types of all annotations in an AGSet, AG, or Annotation.
+   */
+  sequence<AnnotationType>
+  GetAnnotationTypes(Id id);
+
+
+  /**
+   * @brief
+   *   Get a list of feature names of all annotations in an AGSet, AG,
+   *   or Annotation.
+   *
+   * If type is given, annotations of other types than the given type are
+   * filtered out in the return value.
+   */
+  sequence<FeatureName>
+  GetAnnotationFeatureNames(Id id, AnnotationType type="");
+
+
+  // this might be necessary to package up an id into a durable reference
+  //  AnnotationRef GetRef(Id id );
+  
+  
+  /**
+   * @brief
+   *   Set the value of a feature.
+   *
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id
+   *   the Id of the entity whose feature will be set
+   * @param featureName
+   *   the name of the feature
+   * @param featureValue
+   *   the value of the feature
+   * @note
+   *   id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   *   If the id is AGSetId, AGId, TimelineId or SignalId, the feature in its
+   *   Metadata will be set. If the id is an AnnotationId, the feature in 
+   *   the annotation will be set.
+   */
+  void
+  SetFeature(Id              id,
+	     FeatureName     featureName,
+	     FeatureValue    featureValue );
+  
+  /**
+   * @brief
+   *   Test if a feature exists.
+   *
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id the Id of the entity whose feature's existence will be tested
+   * @param featureName the name of the feature
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, test the feature 
+   * in its Metadata. If the id is an AnnotationId, test the feature in 
+   * the annotation.
+   */
+  bool
+  ExistsFeature(    Id              id,
+		    FeatureName     featureName );
+  
+  /**
+   * @brief
+   *   Delete a feature.
+   *
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id the Id of the entity whose feature will be deleted
+   * @param featureName the name of the feature
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, delete the feature 
+   * in its Metadata. If the id is an AnnotationId, delete the feature in 
+   * the annotation.
+   */
+  void
+  DeleteFeature(    Id             id,
+		    FeatureName    featureName );
+  
+  /**
+   * @brief
+   *   Get the value of a feature.
+   *
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id the Id of the entity whose feature value will be returned
+   * @param featureName the name of the feature
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, get the value of 
+   * the feature in its Metadata. If the id is an AnnotationId, get the value
+   * the feature in the annotation.
+   */
+  string
+  GetFeature(       Id             id,
+		    FeatureName    featureName );
+
+  /**
+   * @brief
+   *   Unset a feature.
+   *
+   * Set the feature to empty.
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id the Id of the entity whose feature will be unset
+   * @param featureName the name of the feature
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, unset the feature 
+   * in its Metadata. If the id is an AnnotationId, unset the feature in 
+   * the annotation.
+   */  
+  void
+  UnsetFeature(     Id             id,
+		    FeatureName    featureName );
+
+
+  /**
+   * @brief
+   *   Get all feature names in a list.
+   *
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   *
+   * @param id
+   *   The Id of the entity whose feature names will be returned.
+   * @param featureName
+   *   The name of the feature.
+   * @return
+   *   A list of FeatureNames.
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, return the feature 
+   * names in its Metadata. If the id is an AnnotationId, return the feature
+   * names in the annotation.
+   */
+  sequence<FeatureName>
+  GetFeatureNames(Id id);
+
+
+  /**
+   * @brief
+   *   Set multiple features in a hash table.
+   *
+   * @param id
+   *   The Id of the entity whose feature names will be returned.
+   * @param features
+   *   A hash table of feature-value pairs.
+   * @note
+   *   id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   *   If the id is AGSetId, AGId, TimelineId or SignalId, set the feature
+   *   values names in its Metadata. If the id is an AnnotationId, return
+   *   the feature values names in the annotation.
+   */  
+  void
+  SetFeatures(Id id, hash<FeatureName,FeatureValue> features);
+
+
+  /**
+   * @brief
+   *   Get all features and values in a hash table.
+   *
+   * @param id
+   *   The Id of the entity whose feature names will be returned.
+   * @return
+   *   A hash table of  feature-value pairs.
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, return the feature 
+   * names and values in its Metadata. If the id is an AnnotationId, return
+   * the feature names and values in the annotation.
+   */  
+  hash<FeatureName,FeatureValue>
+  GetFeatures(Id id);
+
+
+  /**
+   * @brief
+   *   Unset all features
+   * Set all features to empty.
+   * This is for both the features of an annotation, and for the metadata
+   * associated with AGSets, AGs, Timelines and Signals.
+   * @param id the Id of the entity whose feature will be unset
+   * @param featureName the name of the feature
+   * @note id can be AGSetId, AGId, TimelineId, SignalId or AnnotationID.
+   * If the id is AGSetId, AGId, TimelineId or SignalId, unset all features 
+   * in its Metadata. If the id is an AnnotationId, unset all features in 
+   * the annotation.
+   */  
+  void
+  UnsetFeatures(    Id             id );
+  
+  //@}
+
+
+
+
+  /**
+   * @name I/O functions
+   * @{
+   */
+  
+  /// Dump the specified AGSet in ATLAS Level 0 format.
+  string toXML(    AGSetId            id);
+
+  /// Dump the specified AG in ATLAS Level 0 forma
+  string toXML(    AGId                   agId);
+
+  /**
+   * @brief
+   *   Load an annotation file.
+   *
+   * @param format
+   *    %Annotation file format. Possible formats are: %AG, TIMIT, BU,
+   *    TreeBank, SwitchBoard, BAS, TF, LCF, XLabel, ATLAS and CAG.
+   * @param filename
+   *    The name of the annotation file to load.
+   * @param id
+   *    The id of the ag/agset where the file will be loaded.
+   * @param signalInfo
+   *   A feature-value pair list for the signal information. Features that
+   *   should be used are:
+   *   <ul>
+   *   <li><tt>uri</tt></li>
+   *   <li><tt>mimeClass</tt></li>
+   *   <li><tt>mimeType</tt></li>
+   *   <li><tt>encoding</tt></li>
+   *   <li><tt>unit</tt></li>
+   *   <li><tt>track</tt> (optional)</li>
+   *   </ul>
+   *   The values shouldn't be empty.
+   * @param options
+   *    A hash table of option-value pairs for format specific options.
+   * @return
+   *    A list of AGIds loaded.
+   */
+  sequence<AGId>
+  Load(string format,
+       string filename,
+       Id id="",
+       hash<string,string> signalInfo=NULL,
+       hsah<string,string> options=NULL);
+
+
+  /**
+   * @brief
+   *   Store an annotation graph in a given format.
+   *
+   * @param format
+   *    %Annotation file format. Possible formats are: %AG, TreeBank,
+   *    SwitchBoard, TF, LCF, CAG and ATLAS.
+   * @param filename
+   *    The name of the file to be stored.
+   * @param id
+   *    The id of ag/agset to be stored.
+   * @param options
+   *    A hash table of option-value pairs for format specific options.
+   */
+  void
+  Store(string format,
+        string filename,
+        Id id,
+        hash<string,string> options=NULL);
+
+
+  /**
+   * @brief
+   *   Store annotation graphs in a given format.
+   *
+   * @param format
+   *    %Annotation file format. Possible formats are: %AG, TreeBank,
+   *    SwitchBoard, TF, LCF, CAG and ATLAS.
+   * @param filename
+   *    The name of the file to be stored.
+   * @param ids
+   *    A list of ids of ag/agset to be stored.
+   * @param options
+   *    A hash table of feature-value pairs for format specific options.
+   */
+  void
+  Store2(string format,
+	 string filename,
+	 sequence<Id> ids,
+	 hash<string,string> options=NULL);
+
+
+  /**
+   * @brief
+   *   LoadFromDB loads the specified AGSet from the database server. 
+   *
+   * @param connStr the connect string, which specifies the connection
+   * string that ODBC uses to connect to the server. It contains
+   * information such as hostname, database name, user name, password etc.
+   * 
+   * The following table shows some of the parameters used in a connect
+   * string. For a complete list, see
+   * http://www.mysql.com/doc/M/y/MyODBC_connect_parameters.html
+   * 
+   * <table border>
+   * <tr><td>ODBC connect string arguments</td><td>What the argument specifies</td></tr>
+   * <tr><td>DSN</td><td>Registered ODBC Data Source Name.</td></tr>
+   * <tr><td>SERVER</td><td>The hostname of the database server.</td></tr>
+   * <tr><td>UID</td><td>User name as established on the server.</td></tr>
+   * <tr><td>PWD</td><td>Password that corresponds with the logon name.</td></tr>
+   * <tr><td>DATABASE</td><td>Database to connect to. If not given, DSN is used.</td></tr>
+   * </table>
+   *
+   * DSN is the registered ODBC Data Source Name, it should be defined in
+   * the .odbc.ini file in your home directory. All other arguments can be
+   * either defined in the .odbc.ini file, or defined in the connect string
+   * itself.
+   * 
+   * To gain access to most ODBC data sources, you must provide a valid
+   * user ID and corresponding password. These values are initially
+   * registered by the database administrator.
+   * 
+   * Probably the easiest way is to define every argument in the .odbc.ini
+   * file in your home directory. The following is a sample driver section
+   * for DSN 'talkbank' in the configuration file for iODBC. To make the
+   * explanation easier, line numbers are included. Please notice that UID
+   * and PWD become USER and PASSWORD, respectively, in iODBC's
+   * configuration file.
+   * 
+   * <pre>
+   * 1  [talkbank]
+   * 2  Driver   = /pkg/ldc/lib/libmyodbc.so
+   * 3  DSN      = talkbank
+   * 4  SERVER   = talkbank.ldc.upenn.edu
+   * 5  USER     = myuserid
+   * 6  PASSWORD = mypasswd
+   * 7  DATABASE = talkbank
+   * </pre>
+   * 
+   * Line 1 is the name of the driver section, which is 'talkbank'. You can
+   * have multiple driver sections in one configuration file. Line 2
+   * specifies the ODBC driver to use. Line 3 gives the name of the DSN,
+   * which is 'talkbank'. Line 4 specifies the hostname of the machine on
+   * which the database server is running. Line 5 is the user name to use
+   * to connect to the server. Line 6 is the password associated with the
+   * user name. Line 7 is the database to connect to.
+   * 
+   * If you have all required arguments specified in your .odbc.ini file
+   * like the one above, the connect string can simply be:
+   * 
+   *    DSN=talkbank;
+   * 
+   * 
+   * If you have not specified some of the arguments, say USER and
+   * PASSWORD, in the configuration file, you can still specify them in
+   * your connect string:
+   * 
+   *    DSN=talkbank;UID=myuserid;PWD=mypasswd;
+   */
+  bool
+  LoadFromDB(   string           connStr,
+		AGSetId          agsetId);
+
+  /**
+   * @brief
+   *   StoreToDB stores the specified AGSet to the database server. 
+   *
+   * @param connStr the connect string, which specifies the connection
+   * string that ODBC uses to connect to the server. It contains
+   * information such as hostname, database name, user name, password etc.
+   * 
+   * The following table shows some of the parameters used in a connect
+   * string. For a complete list, see
+   * http://www.mysql.com/doc/M/y/MyODBC_connect_parameters.html
+   * 
+   * <table border>
+   * <tr><td>ODBC connect string arguments</td><td>What the argument specifies</td></tr>
+   * <tr><td>DSN</td><td>Registered ODBC Data Source Name.</td></tr>
+   * <tr><td>SERVER</td><td>The hostname of the database server.</td></tr>
+   * <tr><td>UID</td><td>User name as established on the server.</td></tr>
+   * <tr><td>PWD</td><td>Password that corresponds with the logon name.</td></tr>
+   * <tr><td>DATABASE</td><td>Database to connect to. If not given, DSN is used.</td></tr>
+   * </table>
+   *
+   * DSN is the registered ODBC Data Source Name, it should be defined in
+   * the .odbc.ini file in your home directory. All other arguments can be
+   * either defined in the .odbc.ini file, or defined in the connect string
+   * itself.
+   * 
+   * To gain access to most ODBC data sources, you must provide a valid
+   * user ID and corresponding password. These values are initially
+   * registered by the database administrator.
+   * 
+   * Probably the easiest way is to define every argument in the .odbc.ini
+   * file in your home directory. The following is a sample driver section
+   * for DSN 'talkbank' in the configuration file for iODBC. To make the
+   * explanation easier, line numbers are included. Please notice that UID
+   * and PWD become USER and PASSWORD, respectively, in iODBC's
+   * configuration file.
+   * 
+   * <pre>
+   * 1  [talkbank]
+   * 2  Driver   = /pkg/ldc/lib/libmyodbc.so
+   * 3  DSN      = talkbank
+   * 4  SERVER   = talkbank.ldc.upenn.edu
+   * 5  USER     = myuserid
+   * 6  PASSWORD = mypasswd
+   * 7  DATABASE = talkbank
+   * </pre>
+   * 
+   * Line 1 is the name of the driver section, which is 'talkbank'. You can
+   * have multiple driver sections in one configuration file. Line 2
+   * specifies the ODBC driver to use. Line 3 gives the name of the DSN,
+   * which is 'talkbank'. Line 4 specifies the hostname of the machine on
+   * which the database server is running. Line 5 is the user name to use
+   * to connect to the server. Line 6 is the password associated with the
+   * user name. Line 7 is the database to connect to.
+   * 
+   * If you have all required arguments specified in your .odbc.ini file
+   * like the one above, the connect string can simply be:
+   * 
+   *    DSN=talkbank;
+   * 
+   * 
+   * If you have not specified some of the arguments, say USER and
+   * PASSWORD, in the configuration file, you can still specify them in
+   * your connect string:
+   * 
+   *    DSN=talkbank;UID=myuserid;PWD=mypasswd;
+   */
+  bool
+  StoreToDB(   string            connStr
+	       AGSetId           agsetId);
+
+
+  /**
+   * @brief
+   *   Return SQL queries needed to store the kernel to the database server.
+   */
+  sequence<string>
+  StoreSQLs(AGSetId agsetId);
+
+  //@}
+
+
+
+  /**
+   * @name Validation functions
+   * @{
+   */
+
+/**
+ * @brief
+ *   Check that all anchors of annotations of a given type have an offset.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @return boolean indicating whether all anchors have an offset
+ */
+bool
+CheckAnchorOffsetTotal(Id agId,
+                       AnnotationType type);
+
+/**
+ * @brief
+ *   Check that all anchors of annotations of a given type are bounded
+ *   by anchors that have an offset, following paths of this type.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @return boolean indicating whether all anchors are bounded
+ */
+bool
+CheckAnchorOffsetBounded(Id agId,
+                         AnnotationType type);
+
+/**
+ * @brief
+ *   Check that all annotations of a given type have the specified feature.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @param featureName, the name of the feature
+ * @return boolean indicating whether all annotations have the feature
+ **/
+bool
+CheckFeatureExists(Id agId,
+                   AnnotationType type,
+                   FeatureName featureName);
+
+/**
+ * @brief
+ *   Check that all annotations of a given type have the specified feature and
+ *   that its value is a valid AnnotationId.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @param featureName, the name of the feature
+ * @return boolean indicating whether all instances of the feature are AnnotationIds
+ */
+bool
+CheckFeatureIsAnnotationId(Id agId,
+                           AnnotationType type,
+                           FeatureName featureName);
+
+/**
+ * @brief
+ *   Check that all annotations of a given type form a connected linear
+ *   sequence.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @return boolean indicating whether the set of annotations is linear
+ */
+bool
+CheckLinear(Id agId,
+            AnnotationType type);
+
+/**
+ * @brief
+ *   Check that all annotations of a given type form a connected subgraph.
+ *
+ * @param ag, an annotation graph
+ * @param type, an annotation type
+ * @return boolean indicating whether the set of annotations is connected
+ */
+bool
+CheckConnected(Id agId,
+               AnnotationType type);
+
+/**
+ * @brief
+ *   Check that all annotations of type type1 are coextensive with an
+ *   annotation of type type2, and vice versa (an existence not uniqueness
+ *   test).
+ *
+ * @param ag, an annotation graph
+ * @param type1, an annotation type
+ * @param type2, an annotation type
+ * @return boolean indicating whether the types are coextensive
+ */
+bool
+CheckCoextensive(Id agId,
+                 AnnotationType type1,
+                 AnnotationType type2);
+
+/**
+ * @brief
+ *   Check that all annotations of type spanType span annotations of
+ *   type spannedType and that all annotations of type spannedType are
+ *   spanned by annotations of type spanType.
+ *
+ * @param ag, an annotation graph
+ * @param spanType, the spanning type
+ * @param spanedType, the spanned type
+ * @return boolean indicating whether the spanning relationship holds
+ */
+bool
+CheckSpan(Id agId,
+          AnnotationType spanType,
+          AnnotationType spannedType);
+
+  //@}
+
+};
