@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <cstdlib>
 #include <ag/AGAPI.h>
 #include "TIMIT.h"
 #include "TIMITfile.h"

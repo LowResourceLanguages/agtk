@@ -7,6 +7,7 @@
 
 
 #include <fstream>
+#include <cstdlib>
 #include <ag/AGAPI.h>
 #include <ag/RE.h>
 #include <ag/Utilities.h>
@@ -17,17 +18,17 @@
 
 using namespace std;
 
-char* const CAG::SEC_AGSET  = "#A";
-char* const CAG::SEC_TL     = "#T";
-char* const CAG::SEC_SIG    = "#S";
-char* const CAG::SEC_AG     = "#G";
-char* const CAG::SEC_ANC    = "#V";
-char* const CAG::SEC_ANN    = "#E";
-char* const CAG::SEC_INC    = "#I";
-char* const CAG::SEC_LMAP   = "#ML";    // label map
-char* const CAG::SEC_TMAP   = "#MT";    // type map
+char const * CAG::SEC_AGSET  = "#A";
+char const * CAG::SEC_TL     = "#T";
+char const * CAG::SEC_SIG    = "#S";
+char const * CAG::SEC_AG     = "#G";
+char const * CAG::SEC_ANC    = "#V";
+char const * CAG::SEC_ANN    = "#E";
+char const * CAG::SEC_INC    = "#I";
+char const * CAG::SEC_LMAP   = "#ML";    // label map
+char const * CAG::SEC_TMAP   = "#MT";    // type map
 
-char* IdMap::charMap = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char const * IdMap::charMap = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 string
 IdMap::int2id(int n)

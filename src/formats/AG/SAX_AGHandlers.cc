@@ -7,6 +7,7 @@
 
 
 #include <iostream>
+#include <cstdlib>
 #include <ag/AGAPI.h>
 #include <ag/AGException.h>
 #include <ag/agfio.h>

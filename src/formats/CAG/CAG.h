@@ -27,15 +27,15 @@ private:
 
 public:
 
-  static char* const SEC_AGSET;
-  static char* const SEC_TL;
-  static char* const SEC_SIG;
-  static char* const SEC_AG;
-  static char* const SEC_ANC;
-  static char* const SEC_ANN;
-  static char* const SEC_INC;
-  static char* const SEC_LMAP;
-  static char* const SEC_TMAP;
+  static char const * SEC_AGSET;
+  static char const * SEC_TL;
+  static char const * SEC_SIG;
+  static char const * SEC_AG;
+  static char const * SEC_ANC;
+  static char const * SEC_ANN;
+  static char const * SEC_INC;
+  static char const * SEC_LMAP;
+  static char const * SEC_TMAP;
 
   CAG(): callLevel(0) {}
 
@@ -66,7 +66,7 @@ private:
   map<AnchorId,string> mapFromAnc;
   map<FeatureName,string> mapFromFea;
   map<AnnotationType,string> mapFromAnnType;
-  static char* charMap;
+  static char const * charMap;
   string int2id(int n);
 
   map<string,AGId> mapToAG;

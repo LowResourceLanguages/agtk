@@ -6,6 +6,7 @@
 // with the distribution.
 
 
+#include <cstdlib>
 #include <ag/AGAPI.h>
 #include <ag/Paired.h>
 #include "BU.h"

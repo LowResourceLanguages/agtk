@@ -7,6 +7,7 @@
 
 
 #include <cstdio>
+#include <cstdlib>
 #include "SWBfile.h"
 
 SWBfile::SWBfile()

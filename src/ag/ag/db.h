@@ -30,4 +30,4 @@ int DB_Query(string sqlQuery);
 void DB_MesgHandler (char *reason);
 
 // Report an error
-int DB_Errors (char *where);
+int DB_Errors (char const * where);

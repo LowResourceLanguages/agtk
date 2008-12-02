@@ -134,7 +134,7 @@ void DB_MesgHandler (char *reason)
 /*
  *  Show all the error information that is available
  */
-int DB_Errors (char *where)
+int DB_Errors (char const *where)
 {
   unsigned char buf[250];
   unsigned char sqlstate[15];

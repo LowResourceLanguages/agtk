@@ -9,7 +9,7 @@
 #include <ag/agfioError.h>
 
 agfioError::agfioError(const string& s)
-: msg(s)
+: msg("agf:" + s)
 {
   // print the error message at the moment of throwing an exception
   cerr << msg << endl;

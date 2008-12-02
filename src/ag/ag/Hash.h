@@ -14,10 +14,10 @@
 #include <string>
 using namespace std;
 
-#if (__GNUC__ == 3)
+#if (__GNUC__ >= 3)
 #include <ext/hash_map>
 #include <ext/hash_set>
-  #if (__GNUC_MINOR__ >= 1)
+  #if ((__GNUC__ == 3 && __GNUC_MINOR__ >= 1) || __GNUC__ > 3)
   using namespace __gnu_cxx;
   #endif
 #else
