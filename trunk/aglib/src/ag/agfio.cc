@@ -35,16 +35,19 @@ agfio::load(const string& format,
     return plug(format)->load(filename, id, signalInfo, options);
   }
   catch (const string& msg) {
-    throw LoadError("agfio::load:" + msg);
+    throw LoadError(msg);
   }
   catch (const LoadError& e) {
     throw e;
   }
   catch (AGException& e) {
-    throw LoadError(string("agfio::load:AGException occurred, ") + e.error());
+    throw LoadError(string("AGException occurred, ") + e.error());
+  }
+  catch (const exception& e) {
+    throw LoadError(e.what());
   }
   catch (...) {
-    throw LoadError("agfio::load:Unknown error");
+    throw LoadError("Unknown exception");
   }
 }
 
@@ -59,16 +62,19 @@ agfio::store(const string& format,
     return plug(format)->store(filename, id, options);
   }
   catch (const string& msg) {
-    throw StoreError("agfio:store:" + msg);
+    throw StoreError(msg);
   }
   catch (const StoreError& e) {
     throw e;
   }
   catch (AGException& e) {
-    throw StoreError(string("agfio::store:AGException occurred, ") + e.error());
+    throw StoreError(string("AGException occurred, ") + e.error());
+  }
+  catch (const exception& e) {
+    throw StoreError(e.what());
   }
   catch (...) {
-    throw StoreError("agfio::store:Unknown error");
+    throw StoreError("Unknown exception");
   }
 }
 
@@ -83,16 +89,19 @@ agfio::store(const string& format,
     return plug(format)->store(filename, ids, options);
   }
   catch (const string& msg) {
-    throw StoreError("agfio:store:" + msg);
+    throw StoreError(msg);
   }
   catch (const StoreError& e) {
     throw e;
   }
   catch (AGException& e) {
-    throw StoreError(string("agfio::store:AGException occurred, ") + e.error());
+    throw StoreError(string("AGException occurred, ") + e.error());
+  }
+  catch (const exception& e) {
+    throw StoreError(e.what());
   }
   catch (...) {
-    throw StoreError("agfio::store:Unknown error");
+    throw StoreError("Unknown exception");
   }
 }
 

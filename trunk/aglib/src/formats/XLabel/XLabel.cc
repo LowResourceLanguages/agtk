@@ -6,6 +6,7 @@
 // with the distribution.
 
 
+#include <cstdlib>
 #include <ag/AGAPI.h>
 #include "XLabel.h"
 #include "XLabelFile.h"

@@ -6,6 +6,7 @@
 // with the distribution.
 
 
+#include <cstdlib>
 #include "LCF.h"
 #include "LCFfile.h"
 #include <ag/AGException.h>

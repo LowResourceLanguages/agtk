@@ -10,6 +10,7 @@
 #include <ag/AGAPI.h>
 #include <ag/db.h>
 #include <ag/Utilities.h>
+#include <cstdlib>
 
 
 extern SQLHENV henv;

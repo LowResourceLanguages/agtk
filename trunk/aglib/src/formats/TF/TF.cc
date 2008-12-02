@@ -7,6 +7,7 @@
 
 
 #include <cstdio>
+#include <cstdlib>
 #include <fstream>
 #include <ag/AGAPI.h>
 #include <ag/RE.h>
