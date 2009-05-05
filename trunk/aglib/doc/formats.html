@@ -498,14 +498,14 @@ be an alternative of the AG format when the storage space matters.</p>
 
 <p>This format can be stored over several files. <i>Dictionary</i> is
 a part of the format that contains anchors. <i>Annotation</i> is the
-part that contains anchors.  The anchors in
+part that contains annotations.  The anchors in
 <i>Dictionary</i> are referenced by annotations in the
-<i>Annotation</i> part. An <i>Annotation</i> file should specifies the
+<i>Annotation</i> part. An <i>Annotation</i> file should specify the
 <i>Dictionary</i> file to include in the header. The header is
 processed by the loader to include appropriate <i>Dictionary</i>
-files. The <i>Annotation</i> part also can be spreaded out by
-annotation types.  In other words, each type of annotations can be
-stored in a seperated file. Those <i>Annotation</i> files can be
+files. The <i>Annotation</i> part also can be spread out by
+annotation types.  For example, each type of annotations can be
+stored in a separate file. Those <i>Annotation</i> files can be
 included and referenced by other <i>Annotation</i> files.</p>
 
 <li>Format name: Compact Annotation Graph format</li>
@@ -542,7 +542,7 @@ load</td></tr>
 <tr>
 <td align="center"><i>compress</i></td>
 <td align="center"><i>true</i>, <i><u>false</u></i></td>
-<td>Tells if the input file is gzip-compressed or not. Default value
+<td>Tells whether the input file should be gzip-compressed or not. Default value
 is false. Note that this option is effective only when the zlib is
 compiled in the plugin.</td>
 </tr>
@@ -601,7 +601,7 @@ compiled in the plugin.</td>
 <tr>
 <td align="center"><i>include</i></td>
 <td align="center">List of dictionary file names (space seperated string)</td>
-<td>These file are written in the <i>Annotation</i> file header in the
+<td>These files are written in the <i>Annotation</i> file header in the
 include section.</td>
 </tr>
 
