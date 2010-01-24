@@ -258,7 +258,7 @@ void SAX_AGHandlers::warning(const SAXParseException& e)
 
 void SAX_AGHandlers::error(const SAXParseException& e)
 {
-  cerr << "WARNING: " << trans(e.getMessage()) << endl;
+  cerr << "ERROR (ignored): " << trans(e.getMessage()) << endl;
 }
 
 void SAX_AGHandlers::fatalError(const SAXParseException& e)
@@ -267,7 +267,7 @@ void SAX_AGHandlers::fatalError(const SAXParseException& e)
 }
 
 void SAX_AGHandlers::writeChars(const XMLByte* const toWrite,
-                                 const unsigned int count,
+                                 const XMLSize_t count,
                                  XMLFormatter* const formatter)
 {
   targetString.assign((char*) toWrite, count);

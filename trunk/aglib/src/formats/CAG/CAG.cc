@@ -291,7 +291,7 @@ writeAnchors(list<AGId>& agIds, ostream& out)
 	   ++bySigIt) {
 	out << CAG::SEC_ANC << endl;
 	out << byUNSIt->first << " ";
-	set<SignalId>::iterator sigIt = bySigIt->first.begin();
+	set<SignalId>::const_iterator sigIt = bySigIt->first.begin();
 	if (sigIt != bySigIt->first.end()) {
 	  out << *sigIt;
 	  for (++sigIt; sigIt != bySigIt->first.end(); ++sigIt) 

@@ -1,0 +1,121 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ag_java", "ag_java\ag_java.vcproj", "{2AFA971D-C651-461F-A950-77517B159B13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ag_python", "ag_python\ag_python.vcproj", "{FDA1D729-B03A-4345-9318-508A17ECD52B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ag_tcl", "ag_tcl\ag_tcl.vcproj", "{20B3A5F3-972F-44FF-ABAA-67439CD819F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_AG", "agfio_plugin_AG\agfio_plugin_AG.vcproj", "{DCF7EC97-F6EB-456C-9526-62A929FE41DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_ATLAS", "agfio_plugin_ATLAS\agfio_plugin_ATLAS.vcproj", "{FBB12986-BD79-4977-8575-3BB474DDEC58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_BAS", "agfio_plugin_BAS\agfio_plugin_BAS.vcproj", "{FB456A2D-9DC1-4CB6-ACB5-DE0A85B0D827}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_BU", "agfio_plugin_BU\agfio_plugin_BU.vcproj", "{22BCB1D8-2185-4E5B-9437-CBC57CEC9A16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_CAG", "agfio_plugin_CAG\agfio_plugin_CAG.vcproj", "{1C1464BA-F63B-4164-A6D6-5D50E184192F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_LCF", "agfio_plugin_LCF\agfio_plugin_LCF.vcproj", "{2C4FD7B8-AD73-4096-89ED-08CAB102BCE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_SwitchBoard", "agfio_plugin_SwitchBoard\agfio_plugin_SwitchBoard.vcproj", "{D6EF624E-07D0-4C1F-B922-3341A21C1276}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_TF", "agfio_plugin_TF\agfio_plugin_TF.vcproj", "{82C97D62-A62E-43D6-A2C2-3FDB5057523F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_TIMIT", "agfio_plugin_TIMIT\agfio_plugin_TIMIT.vcproj", "{4310DE11-CB44-4452-8EC6-AC8ECD90C6E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_TreeBank", "agfio_plugin_TreeBank\agfio_plugin_TreeBank.vcproj", "{260A976D-457B-48DC-B701-CBD618D4F6DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agfio_plugin_XLabel", "agfio_plugin_XLabel\agfio_plugin_XLabel.vcproj", "{8F064D55-0BA5-487B-97C5-FAB0708EF51D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F} = {4C30D889-9169-4B65-83E7-5DB8DDCC426F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libag", "libag\libag.vcproj", "{4C30D889-9169-4B65-83E7-5DB8DDCC426F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FCF6C6-9C36-4120-A82C-43F8457A92A0} = {03FCF6C6-9C36-4120-A82C-43F8457A92A0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regex", "regex\regex.vcproj", "{03FCF6C6-9C36-4120-A82C-43F8457A92A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFA971D-C651-461F-A950-77517B159B13}.Release|Win32.ActiveCfg = Release|Win32
+		{2AFA971D-C651-461F-A950-77517B159B13}.Release|Win32.Build.0 = Release|Win32
+		{FDA1D729-B03A-4345-9318-508A17ECD52B}.Release|Win32.ActiveCfg = Release|Win32
+		{FDA1D729-B03A-4345-9318-508A17ECD52B}.Release|Win32.Build.0 = Release|Win32
+		{20B3A5F3-972F-44FF-ABAA-67439CD819F9}.Release|Win32.ActiveCfg = Release|Win32
+		{20B3A5F3-972F-44FF-ABAA-67439CD819F9}.Release|Win32.Build.0 = Release|Win32
+		{DCF7EC97-F6EB-456C-9526-62A929FE41DB}.Release|Win32.ActiveCfg = Release|Win32
+		{DCF7EC97-F6EB-456C-9526-62A929FE41DB}.Release|Win32.Build.0 = Release|Win32
+		{FBB12986-BD79-4977-8575-3BB474DDEC58}.Release|Win32.ActiveCfg = Release|Win32
+		{FBB12986-BD79-4977-8575-3BB474DDEC58}.Release|Win32.Build.0 = Release|Win32
+		{FB456A2D-9DC1-4CB6-ACB5-DE0A85B0D827}.Release|Win32.ActiveCfg = Release|Win32
+		{FB456A2D-9DC1-4CB6-ACB5-DE0A85B0D827}.Release|Win32.Build.0 = Release|Win32
+		{22BCB1D8-2185-4E5B-9437-CBC57CEC9A16}.Release|Win32.ActiveCfg = Release|Win32
+		{22BCB1D8-2185-4E5B-9437-CBC57CEC9A16}.Release|Win32.Build.0 = Release|Win32
+		{1C1464BA-F63B-4164-A6D6-5D50E184192F}.Release|Win32.ActiveCfg = Release|Win32
+		{1C1464BA-F63B-4164-A6D6-5D50E184192F}.Release|Win32.Build.0 = Release|Win32
+		{2C4FD7B8-AD73-4096-89ED-08CAB102BCE5}.Release|Win32.ActiveCfg = Release|Win32
+		{2C4FD7B8-AD73-4096-89ED-08CAB102BCE5}.Release|Win32.Build.0 = Release|Win32
+		{D6EF624E-07D0-4C1F-B922-3341A21C1276}.Release|Win32.ActiveCfg = Release|Win32
+		{D6EF624E-07D0-4C1F-B922-3341A21C1276}.Release|Win32.Build.0 = Release|Win32
+		{82C97D62-A62E-43D6-A2C2-3FDB5057523F}.Release|Win32.ActiveCfg = Release|Win32
+		{82C97D62-A62E-43D6-A2C2-3FDB5057523F}.Release|Win32.Build.0 = Release|Win32
+		{4310DE11-CB44-4452-8EC6-AC8ECD90C6E0}.Release|Win32.ActiveCfg = Release|Win32
+		{4310DE11-CB44-4452-8EC6-AC8ECD90C6E0}.Release|Win32.Build.0 = Release|Win32
+		{260A976D-457B-48DC-B701-CBD618D4F6DD}.Release|Win32.ActiveCfg = Release|Win32
+		{260A976D-457B-48DC-B701-CBD618D4F6DD}.Release|Win32.Build.0 = Release|Win32
+		{8F064D55-0BA5-487B-97C5-FAB0708EF51D}.Release|Win32.ActiveCfg = Release|Win32
+		{8F064D55-0BA5-487B-97C5-FAB0708EF51D}.Release|Win32.Build.0 = Release|Win32
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F}.Release|Win32.ActiveCfg = Release|Win32
+		{4C30D889-9169-4B65-83E7-5DB8DDCC426F}.Release|Win32.Build.0 = Release|Win32
+		{03FCF6C6-9C36-4120-A82C-43F8457A92A0}.Release|Win32.ActiveCfg = Release|Win32
+		{03FCF6C6-9C36-4120-A82C-43F8457A92A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

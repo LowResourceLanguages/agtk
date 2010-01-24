@@ -81,12 +81,12 @@ void agfSAXParse(HandlerBase* handler,
   parser.setErrorHandler(handler);
   if (xml_validation) {
     parser.setValidationScheme(SAXParser::Val_Auto);
-    parser.setDoValidation(true);
+    //parser.setDoValidation(true);
   }
   else {
     parser.setLoadExternalDTD(false);
     parser.setValidationScheme(SAXParser::Val_Never);
-    parser.setDoValidation(false);
+    //parser.setDoValidation(false);
   }
   parser.setDoNamespaces(false);
   parser.setEntityResolver(handler);
