@@ -323,7 +323,7 @@ void SAX_ATLASHandlers::warning(const SAXParseException& e)
 
 void SAX_ATLASHandlers::error(const SAXParseException& e)
 {
-  cerr << "WARNING: " << trans(e.getMessage()) << endl;
+  cerr << "ERROR (ignored): " << trans(e.getMessage()) << endl;
 }
 
 void SAX_ATLASHandlers::fatalError(const SAXParseException& e)
