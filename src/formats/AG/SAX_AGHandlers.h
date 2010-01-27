@@ -109,7 +109,7 @@ public:
 
   void startElement(const XMLCh* const name, AttributeList& attr);
   void endElement(const XMLCh* const name);
-  void characters(const XMLCh* const chars, const unsigned int length);
+  void characters(const XMLCh* const chars, const XMLSize_t length);
   virtual InputSource* resolveEntity(const XMLCh* const publicId, const XMLCh* const systemId);
 
   void warning(const SAXParseException& exception);
