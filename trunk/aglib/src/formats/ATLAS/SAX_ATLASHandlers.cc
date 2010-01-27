@@ -311,7 +311,7 @@ SAX_ATLASHandlers::endElement(const XMLCh* const name)
 }
 
 void SAX_ATLASHandlers::characters
-(const XMLCh* const chars, const unsigned int length)
+(const XMLCh* const chars, const XMLSize_t length)
 {
   currValue += trans(chars);
 }

@@ -244,7 +244,7 @@ void SAX_AGHandlers::FeatureEnd(const XMLCh* const name)
 }
 
 void SAX_AGHandlers::characters
-(const XMLCh* const chars, const unsigned int length)
+(const XMLCh* const chars, const XMLSize_t length)
 {
   string s;
   set_string(s, chars);
